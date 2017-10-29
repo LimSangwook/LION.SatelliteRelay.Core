@@ -1,0 +1,120 @@
+[2017-10-23 00:00:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:00:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 298
+[2017-10-23 00:00:11]  (RelayProductService.java:66) - 	 [Schedule Job (298)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-23 00:00:11]  (RelayProductService.java:70) - 	 [Schedule Job (298)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-23 00:00:11]  (RelayProductService.java:75) - 	 [Schedule Job (298)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-23 00:00:11]  (RelayProductService.java:94) - 	 [Schedule Job (298)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-23 00:00:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 298 - Failed!
+[2017-10-23 00:00:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:00:29]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:00:29]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 299
+[2017-10-23 00:00:29]  (RelayProductService.java:66) - 	 [Schedule Job (299)] PID : 2-매시-잡 - Task0-Init START
+[2017-10-23 00:00:29]  (RelayProductService.java:70) - 	 [Schedule Job (299)] PID : 2-매시-잡 - Task0-Init END
+[2017-10-23 00:00:29]  (RelayProductService.java:75) - 	 [Schedule Job (299)] PID : 2-매시-잡 - Task1-Filtering START
+[2017-10-23 00:00:29]  (RelayProductService.java:94) - 	 [Schedule Job (299)] PID : 2-매시-잡 - Task1-Filtering END
+[2017-10-23 00:00:29]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 299 - Failed!
+[2017-10-23 00:00:29]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:01:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:01:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 300
+[2017-10-23 00:01:11]  (RelayProductService.java:66) - 	 [Schedule Job (300)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-23 00:01:11]  (RelayProductService.java:70) - 	 [Schedule Job (300)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-23 00:01:11]  (RelayProductService.java:75) - 	 [Schedule Job (300)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-23 00:01:11]  (RelayProductService.java:94) - 	 [Schedule Job (300)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-23 00:01:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 300 - Failed!
+[2017-10-23 00:01:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:02:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:02:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 301
+[2017-10-23 00:02:11]  (RelayProductService.java:66) - 	 [Schedule Job (301)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-23 00:02:11]  (RelayProductService.java:70) - 	 [Schedule Job (301)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-23 00:02:11]  (RelayProductService.java:75) - 	 [Schedule Job (301)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-23 00:02:11]  (RelayProductService.java:94) - 	 [Schedule Job (301)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-23 00:02:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 301 - Failed!
+[2017-10-23 00:02:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:03:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:03:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 302
+[2017-10-23 00:03:11]  (RelayProductService.java:66) - 	 [Schedule Job (302)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-23 00:03:11]  (RelayProductService.java:70) - 	 [Schedule Job (302)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-23 00:03:11]  (RelayProductService.java:75) - 	 [Schedule Job (302)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-23 00:03:11]  (RelayProductService.java:94) - 	 [Schedule Job (302)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-23 00:03:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 302 - Failed!
+[2017-10-23 00:03:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:04:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:04:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 303
+[2017-10-23 00:04:11]  (RelayProductService.java:66) - 	 [Schedule Job (303)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-23 00:04:11]  (RelayProductService.java:70) - 	 [Schedule Job (303)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-23 00:04:11]  (RelayProductService.java:75) - 	 [Schedule Job (303)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-23 00:04:11]  (RelayProductService.java:94) - 	 [Schedule Job (303)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-23 00:04:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 303 - Failed!
+[2017-10-23 00:04:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:05:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:05:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 304
+[2017-10-23 00:05:11]  (RelayProductService.java:66) - 	 [Schedule Job (304)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-23 00:05:11]  (RelayProductService.java:70) - 	 [Schedule Job (304)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-23 00:05:11]  (RelayProductService.java:75) - 	 [Schedule Job (304)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-23 00:05:11]  (RelayProductService.java:94) - 	 [Schedule Job (304)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-23 00:05:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 304 - Failed!
+[2017-10-23 00:05:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:06:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:06:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 305
+[2017-10-23 00:06:11]  (RelayProductService.java:66) - 	 [Schedule Job (305)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-23 00:06:11]  (RelayProductService.java:70) - 	 [Schedule Job (305)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-23 00:06:11]  (RelayProductService.java:75) - 	 [Schedule Job (305)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-23 00:06:11]  (RelayProductService.java:94) - 	 [Schedule Job (305)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-23 00:06:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 305 - Failed!
+[2017-10-23 00:06:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:07:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:07:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 306
+[2017-10-23 00:07:11]  (RelayProductService.java:66) - 	 [Schedule Job (306)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-23 00:07:11]  (RelayProductService.java:70) - 	 [Schedule Job (306)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-23 00:07:11]  (RelayProductService.java:75) - 	 [Schedule Job (306)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-23 00:07:11]  (RelayProductService.java:94) - 	 [Schedule Job (306)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-23 00:07:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 306 - Failed!
+[2017-10-23 00:07:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:08:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:08:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 307
+[2017-10-23 00:08:11]  (RelayProductService.java:66) - 	 [Schedule Job (307)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-23 00:08:11]  (RelayProductService.java:70) - 	 [Schedule Job (307)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-23 00:08:11]  (RelayProductService.java:75) - 	 [Schedule Job (307)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-23 00:08:11]  (RelayProductService.java:94) - 	 [Schedule Job (307)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-23 00:08:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 307 - Failed!
+[2017-10-23 00:08:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:09:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:09:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 308
+[2017-10-23 00:09:11]  (RelayProductService.java:66) - 	 [Schedule Job (308)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-23 00:09:11]  (RelayProductService.java:70) - 	 [Schedule Job (308)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-23 00:09:11]  (RelayProductService.java:75) - 	 [Schedule Job (308)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-23 00:09:11]  (RelayProductService.java:94) - 	 [Schedule Job (308)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-23 00:09:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 308 - Failed!
+[2017-10-23 00:09:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:10:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:10:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 309
+[2017-10-23 00:10:11]  (RelayProductService.java:66) - 	 [Schedule Job (309)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-23 00:10:11]  (RelayProductService.java:70) - 	 [Schedule Job (309)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-23 00:10:11]  (RelayProductService.java:75) - 	 [Schedule Job (309)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-23 00:10:11]  (RelayProductService.java:94) - 	 [Schedule Job (309)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-23 00:10:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 309 - Failed!
+[2017-10-23 00:10:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:11:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-23 00:11:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 310
+[2017-10-23 00:11:11]  (RelayProductService.java:66) - 	 [Schedule Job (310)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-23 00:11:11]  (RelayProductService.java:70) - 	 [Schedule Job (310)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-23 00:11:11]  (RelayProductService.java:75) - 	 [Schedule Job (310)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-23 00:11:11]  (RelayProductService.java:94) - 	 [Schedule Job (310)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-23 00:11:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 310 - Failed!
+[2017-10-23 00:11:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-23 00:12:44]  (App.java:18) - [Application] START
+[2017-10-23 00:12:44]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-23 00:12:44]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-23 00:12:44]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-23 00:12:44]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-23 00:12:44]  (RelayService.java:27) - [RelayService] init
+[2017-10-23 00:12:44]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-23 00:12:44]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-23 00:12:45]  (RelayService.java:39) - [RelayService] run
+[2017-10-23 00:12:45]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-23 00:12:45]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-23 00:12:45]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-23 00:12:45]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (2) - 매시-잡
+[2017-10-23 00:12:45]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-23 00:12:45]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (3) - 매일-잡
+[2017-10-23 00:12:45]  (RestAPIService.java:27) - WebFrontService.run()

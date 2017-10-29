@@ -1,0 +1,1425 @@
+[2017-10-18 00:00:27] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:00:27] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:00:27] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:00:28] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:00:28] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:00:28] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:00:28] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:00:28] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:00:28] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:00:28] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:00:28] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:00:31] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:00:31] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:00:31] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:00:31] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:00:34] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:00:34] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:00:34] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:00:34] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:00:37] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:00:37] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:00:37] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:00:37] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:00:40] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:00:40] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:00:40] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:00:40] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:00:43] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:00:43] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:00:43] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:00:43] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:00:46] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:00:46] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:00:46] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:00:46] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:00:49] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:00:49] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:00:49] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:00:49] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:00:52] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:00:52] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:00:52] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:00:52] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:00:55] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:00:55] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:00:55] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:00:55] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:00:58] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:00:58] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:00:58] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:00:58] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:01] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:01] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:01] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:01] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:04] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:04] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:04] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:04] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:07] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:07] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:07] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:07] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:10] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:10] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:10] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:10] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:13] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:13] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:13] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:13] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:16] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:16] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:16] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:16] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:19] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:19] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:19] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:19] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:22] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:22] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:22] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:22] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:25] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:25] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:25] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:25] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:28] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:28] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:28] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:28] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:31] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:31] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:31] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:31] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:34] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:34] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:34] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:34] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:37] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:37] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:37] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:37] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:40] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:40] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:40] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:40] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:43] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:43] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:43] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:43] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:46] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:01:46] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:01:46] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:01:47] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:01:47] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:01:47] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:01:47] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:47] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:47] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:47] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:47] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:01:50] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:50] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:50] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:50] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:53] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:53] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:53] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:53] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:56] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:56] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:56] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:56] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:01:59] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:01:59] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:01:59] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:01:59] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:02] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:02] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:02] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:02] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:05] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:05] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:05] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:05] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:08] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:08] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:08] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:08] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:11] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:11] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:11] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:11] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:14] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:14] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:14] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:14] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:17] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:17] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:17] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:17] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:20] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:20] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:20] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:20] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:23] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:23] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:23] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:23] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:26] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:26] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:26] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:26] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:29] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:29] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:29] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:29] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:32] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:32] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:32] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:32] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:35] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:35] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:35] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:35] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:38] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:38] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:38] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:38] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:41] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:41] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:41] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:41] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:44] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:44] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:44] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:44] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:47] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:47] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:47] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:47] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:50] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:50] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:50] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:50] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:53] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:53] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:53] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:53] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:56] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:56] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:56] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:56] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:02:59] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:02:59] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:02:59] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:02:59] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:04] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:03:04] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:03:04] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:03:05] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:03:05] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:03:05] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:03:05] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:05] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:05] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:05] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:05] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:03:08] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:08] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:08] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:08] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:11] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:11] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:11] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:11] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:14] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:14] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:14] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:14] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:17] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:17] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:17] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:17] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:20] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:20] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:20] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:20] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:23] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:23] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:23] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:23] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:26] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:26] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:26] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:26] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:29] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:29] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:29] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:29] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:32] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:32] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:32] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:32] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:35] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:35] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:35] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:35] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:38] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:38] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:38] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:38] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:50] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:03:50] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:03:50] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:03:51] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:03:51] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:03:51] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:03:51] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:51] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:51] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:51] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:51] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:03:54] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:54] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:54] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:54] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:03:57] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:03:57] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:03:57] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:03:57] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:04:00] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:04:00] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:04:00] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:04:00] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:04:03] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:04:03] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:04:03] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:04:03] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:04:06] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:04:06] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:04:06] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:04:06] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:04:09] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:04:09] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:04:09] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:04:09] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:04:12] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:04:12] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:04:12] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:04:12] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:04:15] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:04:15] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:04:15] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:04:15] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:04:18] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:04:18] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:04:18] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:04:18] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:11:43] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:11:43] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:11:43] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:11:44] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:11:44] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:11:44] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:11:44] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:11:44] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:11:44] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:11:44] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:11:44] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:11:47] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:11:47] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:11:47] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:11:47] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:11:50] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:11:50] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:11:50] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:11:50] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:11:53] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:11:53] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:11:53] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:11:53] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:11:56] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:11:56] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:11:56] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:11:56] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:11:59] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:11:59] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:11:59] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:11:59] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:02] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:02] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:02] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:02] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:05] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:05] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:05] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:05] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:10] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:12:10] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:12:10] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:12:11] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:12:11] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:12:11] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:12:11] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:11] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:11] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:11] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:11] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:12:14] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:14] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:14] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:14] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:17] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:17] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:17] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:17] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:20] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:20] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:20] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:20] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:23] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:23] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:23] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:23] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:26] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:26] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:26] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:26] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:29] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:29] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:29] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:29] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:32] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:32] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:32] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:32] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:35] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:35] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:35] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:35] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:38] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:12:38] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:12:38] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:12:38] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:12:38] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:12:38] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:12:39] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:39] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:39] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:39] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:39] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:12:42] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:42] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:42] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:42] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:45] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:45] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:45] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:45] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:48] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:48] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:48] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:48] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:51] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:51] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:51] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:51] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:54] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:54] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:54] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:54] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:12:57] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:12:57] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:12:57] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:12:57] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:00] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:00] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:00] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:00] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:03] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:03] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:03] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:03] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:06] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:13:06] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:13:06] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:13:07] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:13:07] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:13:07] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:13:07] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:07] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:07] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:07] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:07] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:13:10] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:10] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:10] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:10] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:13] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:13] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:13] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:13] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:16] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:16] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:16] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:16] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:19] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:19] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:19] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:19] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:22] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:22] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:22] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:22] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:25] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:25] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:25] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:25] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:28] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:28] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:28] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:28] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:40] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:13:40] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:13:40] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:13:41] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:13:41] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:13:41] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:13:41] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:41] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:41] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:41] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:41] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:13:44] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:44] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:44] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:44] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:13:47] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:13:47] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:13:47] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:13:47] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:02] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:14:02] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:14:02] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:14:03] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:14:03] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:14:03] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:14:03] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:03] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:03] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:03] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:03] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:14:06] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:06] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:06] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:06] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:09] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:09] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:09] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:09] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:12] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:12] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:12] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:12] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:15] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:15] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:15] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:15] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:18] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:18] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:18] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:18] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:21] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:21] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:21] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:21] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:29] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:14:29] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:14:29] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:14:30] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:14:30] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:14:30] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:14:30] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:30] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:30] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:30] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:30] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:14:33] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:33] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:33] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:33] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:36] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:36] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:36] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:36] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:39] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:39] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:39] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:39] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:42] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:42] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:42] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:42] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:45] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:45] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:45] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:45] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:48] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:48] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:48] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:48] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:51] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:51] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:51] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:51] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:54] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:54] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:54] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:54] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:14:57] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:14:57] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:14:57] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:14:57] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:00] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:00] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:00] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:00] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:04] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:15:04] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:15:04] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:15:04] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:15:04] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:15:04] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:15:05] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:05] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:05] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:05] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:05] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:15:08] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:08] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:08] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:08] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:10] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:11] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:11] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:11] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:14] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:14] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:14] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:14] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:16] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:16] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:16] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:17] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:20] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:20] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:20] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:20] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:22] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:22] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:22] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:23] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:26] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:26] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:26] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:26] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:30] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:15:30] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:15:30] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:15:32] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:15:32] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:15:32] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:15:32] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:32] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:32] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:32] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:32] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:15:35] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:35] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:35] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:35] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:38] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:38] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:38] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:38] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:41] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:41] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:41] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:41] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:44] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:44] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:44] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:44] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:47] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:47] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:47] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:47] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:50] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:50] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:50] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:50] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:53] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:53] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:53] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:53] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:56] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:56] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:56] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:56] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:15:59] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:15:59] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:15:59] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:15:59] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:02] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:02] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:02] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:02] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:05] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:05] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:05] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:05] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:09] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:16:09] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:16:10] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:16:11] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:16:11] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:16:11] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:16:11] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:11] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:11] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:11] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:11] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:16:14] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:14] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:14] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:14] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:17] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:17] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:17] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:17] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:20] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:20] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:20] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:20] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:23] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:23] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:23] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:23] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:26] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:26] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:26] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:26] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:29] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:29] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:29] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:29] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:32] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:32] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:32] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:32] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:35] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:35] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:35] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:35] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:38] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:38] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:38] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:38] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:41] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:41] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:41] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:41] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:44] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:44] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:44] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:44] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:47] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:47] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:47] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:47] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:50] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:50] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:50] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:50] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:53] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:53] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:53] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:53] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:56] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:56] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:56] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:56] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:16:59] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:16:59] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:16:59] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:16:59] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:02] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:02] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:02] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:02] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:05] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:05] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:05] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:05] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:08] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:08] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:08] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:08] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:11] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:11] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:11] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:11] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:14] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:14] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:14] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:14] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:17] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:17] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:17] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:17] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:20] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:20] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:20] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:20] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:23] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:23] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:23] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:23] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:26] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:26] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:26] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:26] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:29] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:29] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:29] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:29] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:32] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:32] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:32] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:32] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:35] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:35] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:35] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:35] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:38] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:38] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:38] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:38] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:41] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:41] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:41] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:41] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:44] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:44] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:44] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:44] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:47] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:47] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:47] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:47] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:50] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:50] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:50] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:50] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:53] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:53] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:53] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:53] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:56] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:56] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:56] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:56] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:17:59] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:17:59] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:17:59] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:17:59] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:02] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:02] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:02] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:02] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:05] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:05] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:05] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:05] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:08] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:08] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:08] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:08] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:11] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:11] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:11] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:11] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:14] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:14] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:14] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:14] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:21] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:18:21] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:18:22] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:18:22] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:18:22] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:18:22] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:18:22] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:22] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:22] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:22] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:22] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:18:25] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:25] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:25] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:25] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:28] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:28] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:28] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:28] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:31] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:31] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:31] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:31] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:34] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:34] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:34] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:34] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:37] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:37] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:37] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:37] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:40] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:40] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:40] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:40] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:18:43] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:18:43] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:18:43] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:18:43] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:19:12] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:19:12] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:19:12] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:19:13] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:19:13] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:19:13] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:19:13] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:19:13] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:19:13] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:19:13] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:19:13] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:19:16] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:19:16] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:19:16] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:19:16] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:19:19] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:19:19] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:19:19] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:19:19] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:19:22] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:19:22] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:19:22] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:19:22] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:19:25] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:19:25] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:19:25] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:19:25] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:19:28] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:19:28] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:19:28] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:19:28] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:19:31] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:19:31] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:19:31] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:19:31] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:19:34] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:19:34] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:19:34] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:19:34] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:19:37] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:19:37] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:19:37] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:19:37] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:19:40] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:19:40] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:19:40] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:19:40] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:19:43] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:19:43] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:19:43] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:19:43] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:26:33] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:26:33] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:26:33] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:26:34] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:26:34] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:26:34] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:26:34] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:26:34] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:26:34] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:26:34] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:26:34] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:26:37] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:26:37] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:26:37] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:26:37] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:26:40] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:26:40] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:26:40] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:26:40] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:26:43] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:26:43] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:26:43] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:26:43] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:26:46] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:26:46] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:26:46] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:26:46] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:26:49] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:26:49] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:26:49] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:26:49] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:26:52] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:26:52] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:26:52] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:26:52] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:26:54] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:26:54] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:26:54] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:26:55] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:26:55] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:26:55] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:26:55] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:26:55] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:26:55] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:26:55] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:26:55] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:26:58] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:26:58] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:26:58] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:26:58] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:01] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:01] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:01] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:01] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:04] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:04] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:04] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:04] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:07] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:07] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:07] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:07] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:10] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:10] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:10] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:10] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:13] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:13] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:13] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:13] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:16] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:16] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:16] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:16] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:19] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:19] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:19] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:19] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:22] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:22] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:22] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:22] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:25] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:25] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:25] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:25] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:28] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:28] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:28] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:28] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:31] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:31] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:31] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:31] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:34] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:34] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:34] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:34] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:37] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:37] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:37] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:37] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:40] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:40] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:40] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:40] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:43] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:43] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:43] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:43] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:46] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:46] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:46] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:46] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:49] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:49] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:49] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:49] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:52] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:52] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:52] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:52] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:55] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:55] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:55] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:55] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:27:58] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:27:58] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:27:58] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:27:58] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:28:01] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:28:01] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:28:01] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:28:01] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:28:04] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:28:04] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:28:04] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:28:04] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:28:07] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:28:07] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:28:07] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:28:07] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:28:10] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:28:10] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:28:10] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:28:10] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:28:13] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:28:13] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:28:13] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:28:13] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:28:16] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:28:16] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:28:16] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:28:16] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:05] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:29:05] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:29:05] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:29:06] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:29:06] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:29:06] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:29:06] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:06] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:06] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:06] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:06] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:29:09] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:09] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:09] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:09] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:12] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:12] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:12] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:12] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:15] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:15] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:15] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:15] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:18] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:18] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:18] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:18] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:21] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:21] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:21] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:21] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:24] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:24] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:24] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:24] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:27] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:27] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:27] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:27] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:30] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:30] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:30] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:30] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:33] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:33] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:33] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:33] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:36] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:36] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:36] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:36] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:39] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:39] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:39] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:39] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:42] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:42] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:42] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:42] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:45] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:45] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:45] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:45] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:48] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:48] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:48] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:48] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:51] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:51] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:51] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:51] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:54] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:54] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:54] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:54] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:29:57] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:29:57] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:29:57] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:29:57] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:30:00] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:30:00] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:30:00] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:30:00] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:30:03] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:30:03] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:30:03] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:30:03] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:30:06] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:30:06] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:30:06] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:30:06] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:30:09] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:30:09] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:30:09] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:30:09] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:30:12] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:30:12] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:30:12] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:30:12] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:30:15] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:30:15] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:30:15] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:30:15] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:30:18] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:30:18] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:30:18] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:30:18] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:30:21] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:30:21] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:30:21] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:30:21] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:32:43] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:32:43] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:32:43] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:32:44] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:32:44] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:32:44] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:32:44] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:32:44] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:32:44] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:32:44] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:32:44] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:32:47] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:32:47] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:32:47] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:32:47] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:32:50] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:32:50] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:32:50] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:32:50] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:32:53] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:32:53] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:32:53] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:32:53] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:32:56] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:32:56] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:32:56] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:32:56] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:32:59] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:32:59] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:32:59] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:32:59] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:02] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:02] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:02] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:02] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:05] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:05] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:05] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:05] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:08] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:08] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:08] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:08] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:23] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 00:33:23] (SatelliteRelayDB.java:36) - SatelliteRelayServiceDB.init()
+[2017-10-18 00:33:23] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 00:33:24] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 00:33:24] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 00:33:24] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 00:33:24] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:24] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:24] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:24] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:24] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 00:33:27] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:27] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:27] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:27] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:30] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:30] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:30] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:30] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:33] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:33] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:33] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:33] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:36] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:36] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:36] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:36] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:39] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:39] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:39] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:39] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:42] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:42] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:42] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:42] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:45] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:45] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:45] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:45] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:48] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:48] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:48] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:48] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:51] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:51] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:51] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:51] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:54] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:54] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:54] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:54] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:33:57] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:33:57] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:33:57] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:33:57] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:00] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:00] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:00] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:00] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:03] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:03] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:03] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:03] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:06] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:06] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:06] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:06] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:09] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:09] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:09] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:09] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:12] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:12] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:12] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:12] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:15] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:15] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:15] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:15] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:18] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:18] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:18] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:18] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:21] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:21] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:21] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:21] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:24] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:24] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:24] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:24] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:27] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:27] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:27] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:27] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:30] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:30] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:30] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:30] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:33] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:33] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:33] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:33] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:36] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:36] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:36] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:36] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:39] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:39] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:39] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:39] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:42] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:42] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:42] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:42] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:45] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:45] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:45] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:45] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:48] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:48] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:48] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:48] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:51] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:51] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:51] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:51] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 00:34:54] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 00:34:54] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 00:34:54] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 00:34:54] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 23:38:55] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 23:38:55] (SatelliteRelayDB.java:37) - SatelliteRelayServiceDB.init()
+[2017-10-18 23:38:55] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 23:38:57] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 23:38:57] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 23:38:57] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 23:38:57] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 23:38:57] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 23:38:57] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 23:38:57] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 23:38:57] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 23:39:00] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 23:39:00] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 23:39:00] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 23:39:00] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 23:39:56] (SatelliteRelayServer.java:18) - ### RUN SatelliteRelayService
+[2017-10-18 23:39:56] (SatelliteRelayDB.java:37) - SatelliteRelayServiceDB.init()
+[2017-10-18 23:39:56] (RelayService.java:27) - [[ ScheduleService.init() ]]
+[2017-10-18 23:39:57] (RelayService.java:39) - [[ ScheduleService.run() ]]
+[2017-10-18 23:39:57] (RelayProductService.java:35) - [[ RelayProductService.registSchedule() ]] Regist Product Schedule : 적외선 - main
+[2017-10-18 23:39:57] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-18 23:39:57] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 23:39:57] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 23:39:57] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 23:39:57] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 23:39:57] (SatelliteRelayServer.java:24) - ### STOP SatelliteRelayService
+[2017-10-18 23:45:57] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 23:45:57] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 23:45:57] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 23:45:57] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 23:51:57] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 23:51:57] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 23:51:57] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 23:51:57] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-18 23:57:57] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-18 23:57:57] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-18 23:57:57] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-18 23:57:57] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)

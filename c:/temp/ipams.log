@@ -1,0 +1,458 @@
+[2017-10-22 07:48:26] (App.java:17) - [Application] START
+[2017-10-22 07:48:26] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 07:48:26] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 07:48:26] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 07:48:26] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 07:48:26] (RelayService.java:27) - [RelayService] init
+[2017-10-22 07:48:26] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 07:48:26] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 07:48:32] (RelayService.java:39) - [RelayService] run
+[2017-10-22 07:48:32] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 07:48:32] (RelayProductService.java:37) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 07:48:32] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 07:48:32] (RelayProductService.java:62) - 			적외선 Task0-Init START
+[2017-10-22 07:48:32] (RelayProductService.java:66) - 			적외선 Task0-Init END
+[2017-10-22 07:48:32] (RelayProductService.java:71) - 			적외선 Task1-Filtering START
+[2017-10-22 07:48:32] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 07:48:32] (App.java:25) - [Application] END
+[2017-10-22 07:52:05] (App.java:17) - [Application] START
+[2017-10-22 07:52:05] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 07:52:05] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 07:52:05] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 07:52:05] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 07:52:05] (RelayService.java:27) - [RelayService] init
+[2017-10-22 07:52:05] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 07:52:05] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 07:52:10] (RelayService.java:39) - [RelayService] run
+[2017-10-22 07:52:10] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 07:52:10] (RelayProductService.java:37) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 07:52:10] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 07:52:10] (RelayProductService.java:62) - 			적외선 Task0-Init START
+[2017-10-22 07:52:10] (RelayProductService.java:66) - 			적외선 Task0-Init END
+[2017-10-22 07:52:10] (RelayProductService.java:71) - 			적외선 Task1-Filtering START
+[2017-10-22 07:52:10] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 07:52:11] (App.java:25) - [Application] END
+[2017-10-22 07:56:47] (App.java:17) - [Application] START
+[2017-10-22 07:56:47] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 07:56:47] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 07:56:47] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 07:56:47] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 07:56:47] (RelayService.java:27) - [RelayService] init
+[2017-10-22 07:56:47] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 07:56:47] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 07:56:48] (RelayService.java:39) - [RelayService] run
+[2017-10-22 07:56:48] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 07:56:48] (RelayProductService.java:37) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 07:56:48] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 07:56:48] (RelayProductService.java:62) - 			적외선 Task0-Init START
+[2017-10-22 07:56:48] (RelayProductService.java:66) - 			적외선 Task0-Init END
+[2017-10-22 07:56:48] (RelayProductService.java:71) - 			적외선 Task1-Filtering START
+[2017-10-22 07:56:48] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 07:56:48] (App.java:25) - [Application] END
+[2017-10-22 08:13:16] (App.java:17) - [Application] START
+[2017-10-22 08:13:16] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 08:13:16] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 08:13:16] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 08:13:16] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 08:13:16] (RelayService.java:27) - [RelayService] init
+[2017-10-22 08:13:16] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 08:13:16] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 08:13:17] (RelayService.java:39) - [RelayService] run
+[2017-10-22 08:13:17] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 08:13:18] (RelayProductService.java:37) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 08:13:18] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 08:13:18] (RelayProductService.java:62) - 			적외선 Task0-Init START
+[2017-10-22 08:13:18] (RelayProductService.java:66) - 			적외선 Task0-Init END
+[2017-10-22 08:13:18] (RelayProductService.java:71) - 			적외선 Task1-Filtering START
+[2017-10-22 08:13:18] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 08:13:18] (App.java:25) - [Application] END
+[2017-10-22 08:13:57] (App.java:17) - [Application] START
+[2017-10-22 08:13:57] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 08:13:57] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 08:13:57] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 08:13:57] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 08:13:57] (RelayService.java:27) - [RelayService] init
+[2017-10-22 08:13:57] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 08:13:57] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 08:13:59] (RelayService.java:39) - [RelayService] run
+[2017-10-22 08:13:59] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 08:13:59] (RelayProductService.java:37) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 08:13:59] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 08:13:59] (RelayProductService.java:62) - 			적외선 Task0-Init START
+[2017-10-22 08:13:59] (RelayProductService.java:66) - 			적외선 Task0-Init END
+[2017-10-22 08:13:59] (RelayProductService.java:71) - 			적외선 Task1-Filtering START
+[2017-10-22 08:13:59] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 08:13:59] (App.java:25) - [Application] END
+[2017-10-22 08:14:23] (App.java:17) - [Application] START
+[2017-10-22 08:14:23] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 08:14:23] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 08:14:23] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 08:14:23] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 08:14:23] (RelayService.java:27) - [RelayService] init
+[2017-10-22 08:14:23] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 08:14:23] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 08:14:24] (RelayService.java:39) - [RelayService] run
+[2017-10-22 08:14:24] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 08:14:24] (RelayProductService.java:37) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 08:14:24] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 08:14:24] (RelayProductService.java:62) - 			적외선 Task0-Init START
+[2017-10-22 08:14:24] (RelayProductService.java:66) - 			적외선 Task0-Init END
+[2017-10-22 08:14:24] (RelayProductService.java:71) - 			적외선 Task1-Filtering START
+[2017-10-22 08:14:25] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 08:14:25] (App.java:25) - [Application] END
+[2017-10-22 08:15:13] (App.java:17) - [Application] START
+[2017-10-22 08:15:13] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 08:15:13] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 08:15:13] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 08:15:14] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 08:15:14] (RelayService.java:27) - [RelayService] init
+[2017-10-22 08:15:14] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 08:15:14] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 08:15:14] (RelayService.java:39) - [RelayService] run
+[2017-10-22 08:15:14] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 08:15:14] (RelayProductService.java:37) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 08:15:14] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 08:15:14] (RelayProductService.java:62) - 			적외선 Task0-Init START
+[2017-10-22 08:15:14] (RelayProductService.java:66) - 			적외선 Task0-Init END
+[2017-10-22 08:15:14] (RelayProductService.java:71) - 			적외선 Task1-Filtering START
+[2017-10-22 08:15:14] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 08:15:14] (App.java:25) - [Application] END
+[2017-10-22 08:16:04] (App.java:17) - [Application] START
+[2017-10-22 08:16:04] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 08:16:04] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 08:16:04] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 08:16:04] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 08:16:04] (RelayService.java:27) - [RelayService] init
+[2017-10-22 08:16:04] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 08:16:04] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 08:16:06] (RelayService.java:39) - [RelayService] run
+[2017-10-22 08:16:06] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 08:16:06] (RelayProductService.java:37) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 08:16:06] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 08:16:06] (RelayProductService.java:62) - 			적외선 Task0-Init START
+[2017-10-22 08:16:06] (RelayProductService.java:66) - 			적외선 Task0-Init END
+[2017-10-22 08:16:06] (RelayProductService.java:71) - 			적외선 Task1-Filtering START
+[2017-10-22 08:16:06] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 08:16:06] (App.java:25) - [Application] END
+[2017-10-22 08:16:24] (App.java:17) - [Application] START
+[2017-10-22 08:16:24] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 08:16:24] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 08:16:24] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 08:16:24] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 08:16:24] (RelayService.java:27) - [RelayService] init
+[2017-10-22 08:16:24] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 08:16:24] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 08:16:26] (RelayService.java:39) - [RelayService] run
+[2017-10-22 08:16:26] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 08:16:26] (RelayProductService.java:37) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 08:16:26] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 08:16:26] (RelayProductService.java:62) - 			적외선 Task0-Init START
+[2017-10-22 08:16:26] (RelayProductService.java:66) - 			적외선 Task0-Init END
+[2017-10-22 08:16:26] (RelayProductService.java:71) - 			적외선 Task1-Filtering START
+[2017-10-22 08:16:26] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 08:16:26] (App.java:25) - [Application] END
+[2017-10-22 08:17:45] (App.java:17) - [Application] START
+[2017-10-22 08:17:45] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 08:17:45] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 08:17:45] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 08:17:45] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 08:17:45] (RelayService.java:27) - [RelayService] init
+[2017-10-22 08:17:45] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 08:17:45] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 08:17:49] (RelayService.java:39) - [RelayService] run
+[2017-10-22 08:17:49] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 08:17:50] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 08:17:50] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 08:17:50] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 08:17:50] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 08:17:50] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 08:17:50] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 08:17:50] (App.java:25) - [Application] END
+[2017-10-22 08:18:29] (App.java:17) - [Application] START
+[2017-10-22 08:18:29] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 08:18:29] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 08:18:29] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 08:18:29] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 08:18:29] (RelayService.java:27) - [RelayService] init
+[2017-10-22 08:18:29] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 08:18:29] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 08:18:31] (RelayService.java:39) - [RelayService] run
+[2017-10-22 08:18:31] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 08:18:31] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 08:18:31] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 08:18:31] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 08:18:31] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 08:18:31] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 08:18:31] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 08:18:31] (App.java:25) - [Application] END
+[2017-10-22 11:19:20] (App.java:17) - [Application] START
+[2017-10-22 11:19:20] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 11:19:20] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 11:19:20] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 11:19:20] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 11:19:20] (RelayService.java:27) - [RelayService] init
+[2017-10-22 11:19:20] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 11:19:20] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 11:19:21] (RelayService.java:39) - [RelayService] run
+[2017-10-22 11:19:21] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 11:19:21] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 11:19:21] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 11:19:21] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 11:19:21] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 11:19:21] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 11:19:21] (RelayProductService.java:91) - 			적외선 Task1-Filtering END
+[2017-10-22 11:19:21] (RelayProductService.java:121) - 			적외선 Task2-FTPTransmition START
+[2017-10-22 11:19:21] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 11:19:21] (App.java:25) - [Application] END
+[2017-10-22 11:19:21] (RelayProductService.java:138) - 			적외선 Task2-FTPTransmition END
+[2017-10-22 11:19:21] (RelayProductService.java:143) - 			적외선 Task3-DBInsert START
+[2017-10-22 11:19:21] (TargetDB.java:54) -  DBINSERT !!!
+[2017-10-22 11:56:08] (App.java:17) - [Application] START
+[2017-10-22 11:56:08] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 11:56:08] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 11:56:08] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 11:56:08] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 11:56:08] (RelayService.java:27) - [RelayService] init
+[2017-10-22 11:56:08] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 11:56:08] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 11:56:09] (RelayService.java:39) - [RelayService] run
+[2017-10-22 11:56:09] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 11:56:09] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 11:56:09] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 11:56:09] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 11:56:09] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 11:56:09] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 11:56:09] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-22 11:56:09] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 11:56:09] (App.java:25) - [Application] END
+[2017-10-22 11:56:59] (App.java:17) - [Application] START
+[2017-10-22 11:56:59] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 11:56:59] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 11:56:59] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 11:56:59] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 11:56:59] (RelayService.java:27) - [RelayService] init
+[2017-10-22 11:56:59] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 11:56:59] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 11:57:01] (RelayService.java:39) - [RelayService] run
+[2017-10-22 11:57:01] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 11:57:01] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 11:57:01] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 11:57:01] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 11:57:01] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 11:57:01] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 11:57:01] (RelayProductService.java:91) - 			적외선 Task1-Filtering END
+[2017-10-22 11:57:01] (RelayProductService.java:121) - 			적외선 Task2-FTPTransmition START
+[2017-10-22 11:57:01] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 11:57:01] (App.java:25) - [Application] END
+[2017-10-22 11:57:01] (RelayProductService.java:138) - 			적외선 Task2-FTPTransmition END
+[2017-10-22 11:57:01] (RelayProductService.java:143) - 			적외선 Task3-DBInsert START
+[2017-10-22 11:57:01] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-22 11:57:15] (App.java:17) - [Application] START
+[2017-10-22 11:57:15] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 11:57:15] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 11:57:15] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 11:57:15] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 11:57:15] (RelayService.java:27) - [RelayService] init
+[2017-10-22 11:57:15] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 11:57:15] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 11:57:17] (RelayService.java:39) - [RelayService] run
+[2017-10-22 11:57:17] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 11:57:17] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 11:57:17] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 11:57:17] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 11:57:17] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 11:57:17] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 11:57:17] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 11:57:17] (App.java:25) - [Application] END
+[2017-10-22 11:57:30] (RelayProductService.java:91) - 			적외선 Task1-Filtering END
+[2017-10-22 11:57:30] (RelayProductService.java:121) - 			적외선 Task2-FTPTransmition START
+[2017-10-22 11:57:30] (RelayProductService.java:138) - 			적외선 Task2-FTPTransmition END
+[2017-10-22 11:57:30] (RelayProductService.java:143) - 			적외선 Task3-DBInsert START
+[2017-10-22 11:57:47] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-22 11:58:00] (App.java:17) - [Application] START
+[2017-10-22 11:58:00] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 11:58:00] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 11:58:00] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 11:58:01] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 11:58:01] (RelayService.java:27) - [RelayService] init
+[2017-10-22 11:58:01] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 11:58:01] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 11:58:02] (RelayService.java:39) - [RelayService] run
+[2017-10-22 11:58:02] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 11:58:02] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 11:58:02] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 11:58:02] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 11:58:02] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 11:58:02] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 11:58:02] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 11:58:02] (App.java:25) - [Application] END
+[2017-10-22 12:00:05] (RelayProductService.java:91) - 			적외선 Task1-Filtering END
+[2017-10-22 12:00:05] (RelayProductService.java:121) - 			적외선 Task2-FTPTransmition START
+[2017-10-22 12:00:05] (RelayProductService.java:54) - 		적외선 All Task Failed! (Thread : Timer-0)
+[2017-10-22 12:00:42] (App.java:17) - [Application] START
+[2017-10-22 12:00:42] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 12:00:42] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 12:00:42] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 12:00:42] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 12:00:42] (RelayService.java:27) - [RelayService] init
+[2017-10-22 12:00:42] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 12:00:42] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 12:00:42] (RelayService.java:39) - [RelayService] run
+[2017-10-22 12:00:42] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 12:00:42] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 12:00:42] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 12:00:42] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 12:00:42] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 12:00:42] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 12:00:42] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 12:00:42] (App.java:25) - [Application] END
+[2017-10-22 12:00:43] (RelayProductService.java:91) - 			적외선 Task1-Filtering END
+[2017-10-22 12:00:43] (RelayProductService.java:121) - 			적외선 Task2-FTPTransmition START
+[2017-10-22 12:00:43] (RelayProductService.java:138) - 			적외선 Task2-FTPTransmition END
+[2017-10-22 12:00:43] (RelayProductService.java:143) - 			적외선 Task3-DBInsert START
+[2017-10-22 12:01:10] (App.java:17) - [Application] START
+[2017-10-22 12:01:10] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 12:01:10] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 12:01:10] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 12:01:10] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 12:01:10] (RelayService.java:27) - [RelayService] init
+[2017-10-22 12:01:10] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 12:01:10] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 12:01:11] (RelayService.java:39) - [RelayService] run
+[2017-10-22 12:01:11] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 12:01:11] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 12:01:11] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 12:01:11] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 12:01:11] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 12:01:11] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 12:01:11] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 12:01:11] (App.java:25) - [Application] END
+[2017-10-22 12:01:12] (RelayProductService.java:91) - 			적외선 Task1-Filtering END
+[2017-10-22 12:01:12] (RelayProductService.java:121) - 			적외선 Task2-FTPTransmition START
+[2017-10-22 12:01:12] (RelayProductService.java:138) - 			적외선 Task2-FTPTransmition END
+[2017-10-22 12:01:12] (RelayProductService.java:143) - 			적외선 Task3-DBInsert START
+[2017-10-22 12:01:30] (App.java:17) - [Application] START
+[2017-10-22 12:01:30] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 12:01:30] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 12:01:30] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 12:01:31] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 12:01:31] (RelayService.java:27) - [RelayService] init
+[2017-10-22 12:01:31] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 12:01:31] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 12:01:31] (RelayService.java:39) - [RelayService] run
+[2017-10-22 12:01:31] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 12:01:31] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 12:01:31] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 12:01:31] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 12:01:31] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 12:01:31] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 12:01:32] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 12:01:32] (App.java:25) - [Application] END
+[2017-10-22 12:01:33] (RelayProductService.java:91) - 			적외선 Task1-Filtering END
+[2017-10-22 12:01:33] (RelayProductService.java:121) - 			적외선 Task2-FTPTransmition START
+[2017-10-22 12:01:33] (RelayProductService.java:138) - 			적외선 Task2-FTPTransmition END
+[2017-10-22 12:01:33] (RelayProductService.java:143) - 			적외선 Task3-DBInsert START
+[2017-10-22 12:01:48] (App.java:17) - [Application] START
+[2017-10-22 12:01:48] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 12:01:48] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 12:01:48] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 12:01:48] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 12:01:48] (RelayService.java:27) - [RelayService] init
+[2017-10-22 12:01:48] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 12:01:48] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 12:01:50] (RelayService.java:39) - [RelayService] run
+[2017-10-22 12:01:50] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 12:01:50] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 12:01:50] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 12:01:50] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 12:01:50] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 12:01:50] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 12:01:50] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 12:01:50] (App.java:25) - [Application] END
+[2017-10-22 12:01:51] (RelayProductService.java:91) - 			적외선 Task1-Filtering END
+[2017-10-22 12:01:51] (RelayProductService.java:121) - 			적외선 Task2-FTPTransmition START
+[2017-10-22 12:01:52] (RelayProductService.java:138) - 			적외선 Task2-FTPTransmition END
+[2017-10-22 12:01:52] (RelayProductService.java:143) - 			적외선 Task3-DBInsert START
+[2017-10-22 12:02:05] (TargetDB.java:54) -  DBINSERT !!!
+[2017-10-22 12:02:05] (RelayProductService.java:155) - 			적외선 Task3-DBInsert END
+[2017-10-22 12:02:05] (RelayProductService.java:160) - 			적외선 Task4-FileRemove START
+[2017-10-22 12:02:05] (RelayProductService.java:170) - 			적외선 Task4-FileRemove END
+[2017-10-22 12:02:05] (RelayProductService.java:50) - 		적외선 All Task Successed! (Thread : Timer-0)
+[2017-10-22 12:06:41] (App.java:17) - [Application] START
+[2017-10-22 12:06:41] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 12:06:41] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 12:06:41] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 12:06:42] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 12:06:42] (RelayService.java:27) - [RelayService] init
+[2017-10-22 12:06:42] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 12:06:42] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 12:06:43] (RelayService.java:39) - [RelayService] run
+[2017-10-22 12:06:43] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 12:06:43] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 12:06:43] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 12:06:43] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 12:06:43] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 12:06:43] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 12:06:43] (RelayProductService.java:91) - 			적외선 Task1-Filtering END
+[2017-10-22 12:06:43] (RelayProductService.java:121) - 			적외선 Task2-FTPTransmition START
+[2017-10-22 12:06:43] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 12:06:43] (App.java:25) - [Application] END
+[2017-10-22 12:06:44] (RelayProductService.java:138) - 			적외선 Task2-FTPTransmition END
+[2017-10-22 12:06:44] (RelayProductService.java:143) - 			적외선 Task3-DBInsert START
+[2017-10-22 12:06:44] (TargetDB.java:54) -  DBINSERT !!!
+[2017-10-22 12:06:44] (RelayProductService.java:155) - 			적외선 Task3-DBInsert END
+[2017-10-22 12:06:44] (RelayProductService.java:160) - 			적외선 Task4-FileRemove START
+[2017-10-22 12:06:44] (RelayProductService.java:170) - 			적외선 Task4-FileRemove END
+[2017-10-22 12:06:44] (RelayProductService.java:50) - 		적외선 All Task Successed! (Thread : Timer-0)
+[2017-10-22 12:08:58] (App.java:17) - [Application] START
+[2017-10-22 12:08:58] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 12:08:58] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 12:08:58] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 12:08:59] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 12:08:59] (RelayService.java:27) - [RelayService] init
+[2017-10-22 12:08:59] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 12:08:59] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 12:09:00] (RelayService.java:39) - [RelayService] run
+[2017-10-22 12:09:00] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 12:09:00] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 12:09:00] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 12:09:00] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 12:09:00] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 12:09:00] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 12:09:00] (RelayProductService.java:91) - 			적외선 Task1-Filtering END
+[2017-10-22 12:09:00] (RelayProductService.java:121) - 			적외선 Task2-FTPTransmition START
+[2017-10-22 12:09:00] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 12:09:00] (App.java:25) - [Application] END
+[2017-10-22 12:09:00] (RelayProductService.java:138) - 			적외선 Task2-FTPTransmition END
+[2017-10-22 12:09:00] (RelayProductService.java:143) - 			적외선 Task3-DBInsert START
+[2017-10-22 12:09:01] (TargetDB.java:54) -  DBINSERT !!!
+[2017-10-22 12:09:01] (RelayProductService.java:155) - 			적외선 Task3-DBInsert END
+[2017-10-22 12:09:01] (RelayProductService.java:160) - 			적외선 Task4-FileRemove START
+[2017-10-22 12:09:01] (RelayProductService.java:170) - 			적외선 Task4-FileRemove END
+[2017-10-22 12:09:01] (RelayProductService.java:50) - 		적외선 All Task Successed! (Thread : Timer-0)
+[2017-10-22 12:10:17] (App.java:17) - [Application] START
+[2017-10-22 12:10:17] (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-22 12:10:17] (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-22 12:10:17] (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-22 12:10:17] (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-22 12:10:17] (RelayService.java:27) - [RelayService] init
+[2017-10-22 12:10:17] (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-22 12:10:17] (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-22 12:10:18] (RelayService.java:39) - [RelayService] run
+[2017-10-22 12:10:18] (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-22 12:10:18] (RelayProductService.java:35) - [RelayProductService] registSchedule : (1) - 적외선
+[2017-10-22 12:10:18] (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-22 12:10:18] (RelayProductService.java:60) - 			적외선 Task0-Init START
+[2017-10-22 12:10:18] (RelayProductService.java:64) - 			적외선 Task0-Init END
+[2017-10-22 12:10:18] (RelayProductService.java:69) - 			적외선 Task1-Filtering START
+[2017-10-22 12:10:18] (RelayProductService.java:91) - 			적외선 Task1-Filtering END
+[2017-10-22 12:10:18] (RelayProductService.java:121) - 			적외선 Task2-FTPTransmition START
+[2017-10-22 12:10:18] (SatelliteRelayServer.java:24) - [SatelliteRelayService] STOP
+[2017-10-22 12:10:18] (App.java:25) - [Application] END
+[2017-10-22 12:10:18] (RelayProductService.java:138) - 			적외선 Task2-FTPTransmition END
+[2017-10-22 12:10:18] (RelayProductService.java:143) - 			적외선 Task3-DBInsert START
+[2017-10-22 12:10:18] (TargetDB.java:54) -  DBINSERT !!!
+[2017-10-22 12:10:18] (RelayProductService.java:155) - 			적외선 Task3-DBInsert END
+[2017-10-22 12:10:18] (RelayProductService.java:160) - 			적외선 Task4-FileRemove START
+[2017-10-22 12:10:18] (RelayProductService.java:170) - 			적외선 Task4-FileRemove END
+[2017-10-22 12:10:18] (RelayProductService.java:50) - 		적외선 All Task Successed! (Thread : Timer-0)

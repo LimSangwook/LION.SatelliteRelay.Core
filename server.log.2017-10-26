@@ -1,0 +1,613 @@
+[2017-10-26 12:37:33]  (App.java:18) - [Application] START
+[2017-10-26 12:37:33]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 12:37:33]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 12:37:33]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 12:37:33]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 12:37:33]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 12:37:33]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 12:37:33]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 12:37:34]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 12:37:34]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 12:40:26]  (App.java:18) - [Application] START
+[2017-10-26 12:40:26]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 12:40:26]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 12:40:26]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 12:40:26]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 12:40:26]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 12:40:26]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 12:40:26]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 12:40:28]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 12:40:28]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 12:42:16]  (App.java:18) - [Application] START
+[2017-10-26 12:42:16]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 12:42:16]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 12:42:16]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 12:42:16]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 12:42:16]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 12:42:16]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 12:42:16]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 12:42:16]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 12:42:16]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 12:42:30]  (App.java:18) - [Application] START
+[2017-10-26 12:42:31]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 12:42:31]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 12:42:31]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 12:42:31]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 12:42:31]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 12:42:31]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 12:44:06]  (App.java:18) - [Application] START
+[2017-10-26 12:44:06]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 12:44:06]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 12:44:06]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 12:44:06]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 12:44:06]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 12:44:06]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 12:44:06]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 12:44:07]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 12:44:07]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 12:44:07]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 12:44:07]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 12:44:07]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (2) - 매시-잡
+[2017-10-26 12:44:07]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 12:44:07]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (3) - 매일-잡
+[2017-10-26 12:44:07]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 12:44:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:44:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 311
+[2017-10-26 12:44:11]  (RelayProductService.java:66) - 	 [Schedule Job (311)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:44:11]  (RelayProductService.java:70) - 	 [Schedule Job (311)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:44:11]  (RelayProductService.java:75) - 	 [Schedule Job (311)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:44:11]  (RelayProductService.java:94) - 	 [Schedule Job (311)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:44:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 311 - Failed!
+[2017-10-26 12:44:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:45:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:45:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 312
+[2017-10-26 12:45:11]  (RelayProductService.java:66) - 	 [Schedule Job (312)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:45:11]  (RelayProductService.java:70) - 	 [Schedule Job (312)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:45:11]  (RelayProductService.java:75) - 	 [Schedule Job (312)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:45:11]  (RelayProductService.java:94) - 	 [Schedule Job (312)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:45:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 312 - Failed!
+[2017-10-26 12:45:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:46:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:46:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 313
+[2017-10-26 12:46:11]  (RelayProductService.java:66) - 	 [Schedule Job (313)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:46:11]  (RelayProductService.java:70) - 	 [Schedule Job (313)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:46:11]  (RelayProductService.java:75) - 	 [Schedule Job (313)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:46:11]  (RelayProductService.java:94) - 	 [Schedule Job (313)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:46:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 313 - Failed!
+[2017-10-26 12:46:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:47:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:47:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 314
+[2017-10-26 12:47:11]  (RelayProductService.java:66) - 	 [Schedule Job (314)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:47:11]  (RelayProductService.java:70) - 	 [Schedule Job (314)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:47:11]  (RelayProductService.java:75) - 	 [Schedule Job (314)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:47:11]  (RelayProductService.java:94) - 	 [Schedule Job (314)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:47:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 314 - Failed!
+[2017-10-26 12:47:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:48:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:48:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 315
+[2017-10-26 12:48:11]  (RelayProductService.java:66) - 	 [Schedule Job (315)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:48:11]  (RelayProductService.java:70) - 	 [Schedule Job (315)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:48:11]  (RelayProductService.java:75) - 	 [Schedule Job (315)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:48:11]  (RelayProductService.java:94) - 	 [Schedule Job (315)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:48:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 315 - Failed!
+[2017-10-26 12:48:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:49:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:49:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 316
+[2017-10-26 12:49:11]  (RelayProductService.java:66) - 	 [Schedule Job (316)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:49:11]  (RelayProductService.java:70) - 	 [Schedule Job (316)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:49:11]  (RelayProductService.java:75) - 	 [Schedule Job (316)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:49:11]  (RelayProductService.java:94) - 	 [Schedule Job (316)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:49:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 316 - Failed!
+[2017-10-26 12:49:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:50:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:50:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 317
+[2017-10-26 12:50:11]  (RelayProductService.java:66) - 	 [Schedule Job (317)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:50:11]  (RelayProductService.java:70) - 	 [Schedule Job (317)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:50:11]  (RelayProductService.java:75) - 	 [Schedule Job (317)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:50:11]  (RelayProductService.java:94) - 	 [Schedule Job (317)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:50:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 317 - Failed!
+[2017-10-26 12:50:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:51:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:51:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 318
+[2017-10-26 12:51:11]  (RelayProductService.java:66) - 	 [Schedule Job (318)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:51:11]  (RelayProductService.java:70) - 	 [Schedule Job (318)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:51:11]  (RelayProductService.java:75) - 	 [Schedule Job (318)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:51:11]  (RelayProductService.java:94) - 	 [Schedule Job (318)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:51:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 318 - Failed!
+[2017-10-26 12:51:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:52:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:52:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 319
+[2017-10-26 12:52:11]  (RelayProductService.java:66) - 	 [Schedule Job (319)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:52:11]  (RelayProductService.java:70) - 	 [Schedule Job (319)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:52:11]  (RelayProductService.java:75) - 	 [Schedule Job (319)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:52:11]  (RelayProductService.java:94) - 	 [Schedule Job (319)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:52:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 319 - Failed!
+[2017-10-26 12:52:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:53:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:53:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 320
+[2017-10-26 12:53:11]  (RelayProductService.java:66) - 	 [Schedule Job (320)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:53:11]  (RelayProductService.java:70) - 	 [Schedule Job (320)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:53:11]  (RelayProductService.java:75) - 	 [Schedule Job (320)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:53:11]  (RelayProductService.java:94) - 	 [Schedule Job (320)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:53:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 320 - Failed!
+[2017-10-26 12:53:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:54:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:54:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 321
+[2017-10-26 12:54:11]  (RelayProductService.java:66) - 	 [Schedule Job (321)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:54:11]  (RelayProductService.java:70) - 	 [Schedule Job (321)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:54:11]  (RelayProductService.java:75) - 	 [Schedule Job (321)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:54:11]  (RelayProductService.java:94) - 	 [Schedule Job (321)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:54:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 321 - Failed!
+[2017-10-26 12:54:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:55:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:55:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 322
+[2017-10-26 12:55:11]  (RelayProductService.java:66) - 	 [Schedule Job (322)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:55:11]  (RelayProductService.java:70) - 	 [Schedule Job (322)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:55:11]  (RelayProductService.java:75) - 	 [Schedule Job (322)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:55:11]  (RelayProductService.java:94) - 	 [Schedule Job (322)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:55:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 322 - Failed!
+[2017-10-26 12:55:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:56:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:56:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 323
+[2017-10-26 12:56:11]  (RelayProductService.java:66) - 	 [Schedule Job (323)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:56:11]  (RelayProductService.java:70) - 	 [Schedule Job (323)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:56:11]  (RelayProductService.java:75) - 	 [Schedule Job (323)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:56:11]  (RelayProductService.java:94) - 	 [Schedule Job (323)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:56:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 323 - Failed!
+[2017-10-26 12:56:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:57:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:57:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 324
+[2017-10-26 12:57:11]  (RelayProductService.java:66) - 	 [Schedule Job (324)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:57:11]  (RelayProductService.java:70) - 	 [Schedule Job (324)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:57:11]  (RelayProductService.java:75) - 	 [Schedule Job (324)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:57:11]  (RelayProductService.java:94) - 	 [Schedule Job (324)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:57:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 324 - Failed!
+[2017-10-26 12:57:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:58:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:58:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 325
+[2017-10-26 12:58:11]  (RelayProductService.java:66) - 	 [Schedule Job (325)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:58:11]  (RelayProductService.java:70) - 	 [Schedule Job (325)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:58:11]  (RelayProductService.java:75) - 	 [Schedule Job (325)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:58:11]  (RelayProductService.java:94) - 	 [Schedule Job (325)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:58:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 325 - Failed!
+[2017-10-26 12:58:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 12:59:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 12:59:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 326
+[2017-10-26 12:59:11]  (RelayProductService.java:66) - 	 [Schedule Job (326)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 12:59:11]  (RelayProductService.java:70) - 	 [Schedule Job (326)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 12:59:11]  (RelayProductService.java:75) - 	 [Schedule Job (326)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 12:59:11]  (RelayProductService.java:94) - 	 [Schedule Job (326)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 12:59:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 326 - Failed!
+[2017-10-26 12:59:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:00:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:00:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 327
+[2017-10-26 13:00:11]  (RelayProductService.java:66) - 	 [Schedule Job (327)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:00:11]  (RelayProductService.java:70) - 	 [Schedule Job (327)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:00:11]  (RelayProductService.java:75) - 	 [Schedule Job (327)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:00:11]  (RelayProductService.java:94) - 	 [Schedule Job (327)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:00:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 327 - Failed!
+[2017-10-26 13:00:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:00:22]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:00:22]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 328
+[2017-10-26 13:00:22]  (RelayProductService.java:66) - 	 [Schedule Job (328)] PID : 2-매시-잡 - Task0-Init START
+[2017-10-26 13:00:22]  (RelayProductService.java:70) - 	 [Schedule Job (328)] PID : 2-매시-잡 - Task0-Init END
+[2017-10-26 13:00:22]  (RelayProductService.java:75) - 	 [Schedule Job (328)] PID : 2-매시-잡 - Task1-Filtering START
+[2017-10-26 13:00:22]  (RelayProductService.java:94) - 	 [Schedule Job (328)] PID : 2-매시-잡 - Task1-Filtering END
+[2017-10-26 13:00:22]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 328 - Failed!
+[2017-10-26 13:00:22]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:05:03]  (App.java:18) - [Application] START
+[2017-10-26 13:05:03]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:05:03]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:05:03]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:05:03]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:05:03]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:05:03]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:05:03]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:05:05]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:05:05]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:05:05]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:05:05]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:05:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:05:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 329
+[2017-10-26 13:05:11]  (RelayProductService.java:66) - 	 [Schedule Job (329)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:05:11]  (RelayProductService.java:70) - 	 [Schedule Job (329)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:05:11]  (RelayProductService.java:75) - 	 [Schedule Job (329)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:05:11]  (RelayProductService.java:94) - 	 [Schedule Job (329)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:05:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 329 - Failed!
+[2017-10-26 13:05:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:06:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:06:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 330
+[2017-10-26 13:06:11]  (RelayProductService.java:66) - 	 [Schedule Job (330)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:06:11]  (RelayProductService.java:70) - 	 [Schedule Job (330)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:06:11]  (RelayProductService.java:75) - 	 [Schedule Job (330)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:06:11]  (RelayProductService.java:94) - 	 [Schedule Job (330)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:06:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 330 - Failed!
+[2017-10-26 13:06:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:06:44]  (App.java:18) - [Application] START
+[2017-10-26 13:06:44]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:06:44]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:06:44]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:06:44]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:06:44]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:06:44]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:07:07]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:07:12]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:07:12]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:07:12]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:07:12]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:08:07]  (App.java:18) - [Application] START
+[2017-10-26 13:08:07]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:08:07]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:08:07]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:08:07]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:08:07]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:08:07]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:08:08]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:08:09]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:08:09]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:08:09]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:08:09]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:08:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:08:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 331
+[2017-10-26 13:08:11]  (RelayProductService.java:66) - 	 [Schedule Job (331)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:08:11]  (RelayProductService.java:70) - 	 [Schedule Job (331)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:08:33]  (RelayProductService.java:75) - 	 [Schedule Job (331)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:09:32]  (App.java:18) - [Application] START
+[2017-10-26 13:09:32]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:09:32]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:09:32]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:09:32]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:09:32]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:09:32]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:09:33]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:09:36]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:09:36]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:09:36]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:09:36]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:09:41]  (App.java:18) - [Application] START
+[2017-10-26 13:09:41]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:09:41]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:09:41]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:09:41]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:09:41]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:09:41]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:10:48]  (App.java:18) - [Application] START
+[2017-10-26 13:10:48]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:10:48]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:10:48]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:10:48]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:10:48]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:10:48]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:14:01]  (App.java:18) - [Application] START
+[2017-10-26 13:14:01]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:14:01]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:14:01]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:14:01]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:14:01]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:14:01]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:15:12]  (App.java:18) - [Application] START
+[2017-10-26 13:15:12]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:15:12]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:15:12]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:15:12]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:15:12]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:15:12]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:15:12]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:15:14]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:15:14]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:15:14]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:15:14]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:16:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:16:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 332
+[2017-10-26 13:16:11]  (RelayProductService.java:66) - 	 [Schedule Job (332)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:16:11]  (RelayProductService.java:70) - 	 [Schedule Job (332)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:16:11]  (RelayProductService.java:75) - 	 [Schedule Job (332)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:16:11]  (RelayProductService.java:99) - 	 [Schedule Job (332)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:16:11]  (RelayProductService.java:129) - 	 [Schedule Job (332)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:16:11]  (RelayProductService.java:140) - 파일 업로드를 할 수 없습니다.
+[2017-10-26 13:16:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 332 - Failed!
+[2017-10-26 13:16:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:17:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:17:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 333
+[2017-10-26 13:17:11]  (RelayProductService.java:66) - 	 [Schedule Job (333)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:17:11]  (RelayProductService.java:70) - 	 [Schedule Job (333)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:17:11]  (RelayProductService.java:75) - 	 [Schedule Job (333)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:17:11]  (RelayProductService.java:99) - 	 [Schedule Job (333)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:17:11]  (RelayProductService.java:129) - 	 [Schedule Job (333)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:17:11]  (RelayProductService.java:140) - 파일 업로드를 할 수 없습니다.
+[2017-10-26 13:17:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 333 - Failed!
+[2017-10-26 13:17:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:18:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:18:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 334
+[2017-10-26 13:18:11]  (RelayProductService.java:66) - 	 [Schedule Job (334)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:18:11]  (RelayProductService.java:70) - 	 [Schedule Job (334)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:18:11]  (RelayProductService.java:75) - 	 [Schedule Job (334)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:18:11]  (RelayProductService.java:99) - 	 [Schedule Job (334)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:18:11]  (RelayProductService.java:129) - 	 [Schedule Job (334)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:18:11]  (RelayProductService.java:140) - 파일 업로드를 할 수 없습니다.
+[2017-10-26 13:18:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 334 - Failed!
+[2017-10-26 13:18:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:19:07]  (App.java:18) - [Application] START
+[2017-10-26 13:19:07]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:19:07]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:19:07]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:19:07]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:19:07]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:19:07]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:19:09]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:19:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:19:11]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:19:11]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:19:11]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:19:11]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:19:12]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 335
+[2017-10-26 13:19:12]  (RelayProductService.java:66) - 	 [Schedule Job (335)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:19:12]  (RelayProductService.java:70) - 	 [Schedule Job (335)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:19:12]  (RelayProductService.java:75) - 	 [Schedule Job (335)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:19:12]  (RelayProductService.java:99) - 	 [Schedule Job (335)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:19:12]  (RelayProductService.java:129) - 	 [Schedule Job (335)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:19:12]  (RelayProductService.java:140) - 파일 업로드를 할 수 없습니다.
+[2017-10-26 13:19:12]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 335 - Failed!
+[2017-10-26 13:19:12]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:19:27]  (App.java:18) - [Application] START
+[2017-10-26 13:19:27]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:19:27]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:19:27]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:19:27]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:19:27]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:19:27]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:19:28]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:19:29]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:19:29]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:19:29]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:19:29]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:20:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:20:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 336
+[2017-10-26 13:20:11]  (RelayProductService.java:66) - 	 [Schedule Job (336)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:20:11]  (RelayProductService.java:70) - 	 [Schedule Job (336)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:20:14]  (RelayProductService.java:75) - 	 [Schedule Job (336)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:20:24]  (RelayProductService.java:99) - 	 [Schedule Job (336)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:20:24]  (RelayProductService.java:129) - 	 [Schedule Job (336)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:21:00]  (RelayProductService.java:140) - 파일 업로드를 할 수 없습니다.
+[2017-10-26 13:21:00]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 336 - Failed!
+[2017-10-26 13:21:00]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:21:08]  (App.java:18) - [Application] START
+[2017-10-26 13:21:08]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:21:08]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:21:08]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:21:08]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:21:08]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:21:08]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:21:10]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:21:11]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:21:11]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:21:11]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:21:11]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:22:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:22:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 337
+[2017-10-26 13:22:11]  (RelayProductService.java:66) - 	 [Schedule Job (337)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:22:11]  (RelayProductService.java:70) - 	 [Schedule Job (337)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:22:14]  (RelayProductService.java:75) - 	 [Schedule Job (337)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:22:14]  (RelayProductService.java:99) - 	 [Schedule Job (337)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:22:14]  (RelayProductService.java:129) - 	 [Schedule Job (337)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:23:18]  (App.java:18) - [Application] START
+[2017-10-26 13:23:18]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:23:18]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:23:18]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:23:18]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:23:18]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:23:18]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:23:18]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:23:18]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:23:18]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:23:18]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:23:18]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:24:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:24:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 338
+[2017-10-26 13:24:11]  (RelayProductService.java:66) - 	 [Schedule Job (338)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:24:11]  (RelayProductService.java:70) - 	 [Schedule Job (338)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:24:11]  (RelayProductService.java:75) - 	 [Schedule Job (338)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:24:11]  (RelayProductService.java:99) - 	 [Schedule Job (338)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:24:11]  (RelayProductService.java:129) - 	 [Schedule Job (338)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:24:11]  (RelayProductService.java:140) - 파일 업로드를 할 수 없습니다.
+[2017-10-26 13:24:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 338 - Failed!
+[2017-10-26 13:24:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:25:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:25:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 339
+[2017-10-26 13:25:11]  (RelayProductService.java:66) - 	 [Schedule Job (339)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:25:11]  (RelayProductService.java:70) - 	 [Schedule Job (339)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:25:11]  (RelayProductService.java:75) - 	 [Schedule Job (339)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:25:11]  (RelayProductService.java:99) - 	 [Schedule Job (339)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:25:11]  (RelayProductService.java:129) - 	 [Schedule Job (339)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:25:11]  (RelayProductService.java:140) - 파일 업로드를 할 수 없습니다.
+[2017-10-26 13:25:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 339 - Failed!
+[2017-10-26 13:25:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:25:47]  (App.java:18) - [Application] START
+[2017-10-26 13:25:47]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:25:47]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:25:47]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:25:47]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:25:47]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:25:47]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:25:58]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:25:59]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:25:59]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:25:59]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:25:59]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:26:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:26:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 340
+[2017-10-26 13:26:11]  (RelayProductService.java:66) - 	 [Schedule Job (340)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:26:11]  (RelayProductService.java:70) - 	 [Schedule Job (340)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:26:12]  (RelayProductService.java:75) - 	 [Schedule Job (340)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:26:12]  (RelayProductService.java:99) - 	 [Schedule Job (340)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:26:12]  (RelayProductService.java:129) - 	 [Schedule Job (340)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:29:49]  (App.java:18) - [Application] START
+[2017-10-26 13:29:49]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:29:49]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:29:49]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:29:49]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:29:49]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:29:49]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:29:50]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:29:51]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:29:51]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:29:51]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:29:51]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:30:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:30:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 341
+[2017-10-26 13:30:11]  (RelayProductService.java:66) - 	 [Schedule Job (341)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:30:11]  (RelayProductService.java:70) - 	 [Schedule Job (341)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:30:15]  (RelayProductService.java:75) - 	 [Schedule Job (341)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:30:15]  (RelayProductService.java:99) - 	 [Schedule Job (341)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:30:15]  (RelayProductService.java:129) - 	 [Schedule Job (341)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:30:32]  (RelayProductService.java:147) - 	 [Schedule Job (341)] PID : 1-매분-잡 - Task2-FTPTransmition END
+[2017-10-26 13:30:32]  (RelayProductService.java:152) - 	 [Schedule Job (341)] PID : 1-매분-잡 - Task3-DBInsert START
+[2017-10-26 13:31:41]  (TargetDB.java:54) -  DBINSERT !!!
+[2017-10-26 13:35:18]  (App.java:18) - [Application] START
+[2017-10-26 13:35:18]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:35:18]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:35:18]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:35:18]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:35:18]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:35:18]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:35:20]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:35:22]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:35:22]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:35:22]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:35:22]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:36:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:36:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 342
+[2017-10-26 13:36:11]  (RelayProductService.java:66) - 	 [Schedule Job (342)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:36:11]  (RelayProductService.java:70) - 	 [Schedule Job (342)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:36:11]  (RelayProductService.java:75) - 	 [Schedule Job (342)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:36:11]  (RelayProductService.java:99) - 	 [Schedule Job (342)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:36:11]  (RelayProductService.java:129) - 	 [Schedule Job (342)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:38:18]  (RelayProductService.java:141) - FTP response 421 received.  Server closed connection.
+[2017-10-26 13:38:26]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 342 - Failed!
+[2017-10-26 13:38:26]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:38:26]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:38:26]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 343
+[2017-10-26 13:38:26]  (RelayProductService.java:66) - 	 [Schedule Job (343)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:38:26]  (RelayProductService.java:70) - 	 [Schedule Job (343)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:38:26]  (RelayProductService.java:75) - 	 [Schedule Job (343)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:38:26]  (RelayProductService.java:99) - 	 [Schedule Job (343)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:38:26]  (RelayProductService.java:129) - 	 [Schedule Job (343)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:38:33]  (RelayProductService.java:141) - Connection closed without indication.
+[2017-10-26 13:38:33]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 343 - Failed!
+[2017-10-26 13:38:33]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:38:33]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:38:33]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 344
+[2017-10-26 13:38:33]  (RelayProductService.java:66) - 	 [Schedule Job (344)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:38:33]  (RelayProductService.java:70) - 	 [Schedule Job (344)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:38:33]  (RelayProductService.java:75) - 	 [Schedule Job (344)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:38:33]  (RelayProductService.java:99) - 	 [Schedule Job (344)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:38:33]  (RelayProductService.java:129) - 	 [Schedule Job (344)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:38:33]  (RelayProductService.java:141) - Connection closed without indication.
+[2017-10-26 13:38:33]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 344 - Failed!
+[2017-10-26 13:38:33]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:39:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:39:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 345
+[2017-10-26 13:39:11]  (RelayProductService.java:66) - 	 [Schedule Job (345)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:39:11]  (RelayProductService.java:70) - 	 [Schedule Job (345)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:39:11]  (RelayProductService.java:75) - 	 [Schedule Job (345)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:39:11]  (RelayProductService.java:99) - 	 [Schedule Job (345)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:39:11]  (RelayProductService.java:129) - 	 [Schedule Job (345)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:39:11]  (RelayProductService.java:141) - Connection closed without indication.
+[2017-10-26 13:39:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 345 - Failed!
+[2017-10-26 13:39:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:39:31]  (App.java:18) - [Application] START
+[2017-10-26 13:39:31]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:39:31]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:39:31]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:39:31]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:39:31]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:39:31]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:39:31]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:39:33]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:39:33]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:39:33]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:39:33]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 13:40:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:40:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 346
+[2017-10-26 13:40:11]  (RelayProductService.java:66) - 	 [Schedule Job (346)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:40:11]  (RelayProductService.java:70) - 	 [Schedule Job (346)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:40:11]  (RelayProductService.java:75) - 	 [Schedule Job (346)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:40:11]  (RelayProductService.java:99) - 	 [Schedule Job (346)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:40:11]  (RelayProductService.java:129) - 	 [Schedule Job (346)] PID : 1-매분-잡 - Task2-FTPTransmition START
+[2017-10-26 13:40:11]  (RelayProductService.java:148) - 	 [Schedule Job (346)] PID : 1-매분-잡 - Task2-FTPTransmition END
+[2017-10-26 13:40:11]  (RelayProductService.java:153) - 	 [Schedule Job (346)] PID : 1-매분-잡 - Task3-DBInsert START
+[2017-10-26 13:40:11]  (TargetDB.java:54) -  DBINSERT !!!
+[2017-10-26 13:40:11]  (TargetDB.java:54) -  DBINSERT !!!
+[2017-10-26 13:40:11]  (TargetDB.java:54) -  DBINSERT !!!
+[2017-10-26 13:40:11]  (RelayProductService.java:165) - 	 [Schedule Job (346)] PID : 1-매분-잡 - Task3-DBInsert END
+[2017-10-26 13:40:11]  (RelayProductService.java:170) - 	 [Schedule Job (346)] PID : 1-매분-잡 - Task4-FileRemove START
+[2017-10-26 13:40:11]  (RelayProductService.java:180) - 	 [Schedule Job (346)] PID : 1-매분-잡 - Task4-FileRemove END
+[2017-10-26 13:40:11]  (RelayProductService.java:55) - 	 [Schedule Job] HistoryID : 346 - Successed!
+[2017-10-26 13:40:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:41:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:41:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 347
+[2017-10-26 13:41:11]  (RelayProductService.java:66) - 	 [Schedule Job (347)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:41:11]  (RelayProductService.java:70) - 	 [Schedule Job (347)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:41:11]  (RelayProductService.java:75) - 	 [Schedule Job (347)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:41:11]  (RelayProductService.java:94) - 	 [Schedule Job (347)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:41:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 347 - Failed!
+[2017-10-26 13:41:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:42:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:42:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 348
+[2017-10-26 13:42:11]  (RelayProductService.java:66) - 	 [Schedule Job (348)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:42:11]  (RelayProductService.java:70) - 	 [Schedule Job (348)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:42:11]  (RelayProductService.java:75) - 	 [Schedule Job (348)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:42:11]  (RelayProductService.java:94) - 	 [Schedule Job (348)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:42:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 348 - Failed!
+[2017-10-26 13:42:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:43:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:43:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 349
+[2017-10-26 13:43:11]  (RelayProductService.java:66) - 	 [Schedule Job (349)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:43:11]  (RelayProductService.java:70) - 	 [Schedule Job (349)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:43:11]  (RelayProductService.java:75) - 	 [Schedule Job (349)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:43:11]  (RelayProductService.java:94) - 	 [Schedule Job (349)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:43:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 349 - Failed!
+[2017-10-26 13:43:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:44:11]  (RelayProductService.java:42) - 	 [Schedule Job] START
+[2017-10-26 13:44:11]  (RelayProductService.java:45) - 	 [Schedule Job] START HistoryID : 350
+[2017-10-26 13:44:11]  (RelayProductService.java:66) - 	 [Schedule Job (350)] PID : 1-매분-잡 - Task0-Init START
+[2017-10-26 13:44:11]  (RelayProductService.java:70) - 	 [Schedule Job (350)] PID : 1-매분-잡 - Task0-Init END
+[2017-10-26 13:44:11]  (RelayProductService.java:75) - 	 [Schedule Job (350)] PID : 1-매분-잡 - Task1-Filtering START
+[2017-10-26 13:44:11]  (RelayProductService.java:94) - 	 [Schedule Job (350)] PID : 1-매분-잡 - Task1-Filtering END
+[2017-10-26 13:44:11]  (RelayProductService.java:59) - 	 [Schedule Job] HistoryID : 350 - Failed!
+[2017-10-26 13:44:11]  (RelayProductService.java:61) - 	 [Schedule Job] END
+[2017-10-26 13:45:47]  (App.java:18) - [Application] START
+[2017-10-26 13:45:47]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 13:45:47]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 13:45:47]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 13:45:47]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 13:45:47]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 13:45:47]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 13:45:47]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 13:45:47]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 13:45:47]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 13:45:47]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 13:45:47]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 15:50:13]  (App.java:18) - [Application] START
+[2017-10-26 15:50:13]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 15:50:13]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 15:50:13]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 15:50:14]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 15:50:14]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 15:50:14]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 15:50:14]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 15:50:14]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 15:50:14]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 15:50:14]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
+[2017-10-26 15:50:14]  (RestAPIService.java:27) - WebFrontService.run()
+[2017-10-26 16:51:52]  (App.java:18) - [Application] START
+[2017-10-26 16:51:52]  (SatelliteRelayServer.java:18) - [SatelliteRelayService] START
+[2017-10-26 16:51:52]  (SatelliteRelayDBManager.java:36) - [SatelliteRelayServiceDB] Init
+[2017-10-26 16:51:52]  (SatelliteRelayDBManager.java:45) - [SatelliteRelayServiceDB] connectDB
+[2017-10-26 16:51:52]  (SatelliteRelayDBManager.java:62) - [SatelliteRelayServiceDB] checkDefaultTables
+[2017-10-26 16:51:52]  (RelayService.java:27) - [RelayService] init
+[2017-10-26 16:51:52]  (SatelliteRelayDBManager.java:77) - [SatelliteRelayServiceDB] getProducts
+[2017-10-26 16:51:52]  (SatelliteRelayDBManager.java:87) - [SatelliteRelayServiceDB] getFTPInfo
+[2017-10-26 16:51:52]  (RelayService.java:39) - [RelayService] run
+[2017-10-26 16:51:52]  (SatelliteRelayDBManager.java:82) - [SatelliteRelayServiceDB] getSatelliteInfo
+[2017-10-26 16:51:52]  (RelayProductService.java:36) - [RelayProductService] registSchedule : (1) - 매분-잡
