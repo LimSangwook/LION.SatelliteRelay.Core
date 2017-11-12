@@ -5,7 +5,30 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import spark.QueryParamsMap;
+
 public class SatelliteDAO extends BaseDAO {
+
+	protected String getInsertQuery(QueryParamsMap map) {
+		StringBuilder sb = new StringBuilder();
+		StringBuilder columns = new StringBuilder();
+		StringBuilder values = new StringBuilder();
+		columns.append(" (ID, NAME)");
+		values.append(" (").append(getNewID()).append(",\"").append(map.value("SatelliteName")).append("\")");
+		
+		sb.append("INSERT INTO ").append(TABLE_NAME).append(columns).append(" VALUES ").append(values);
+		return sb.toString();
+	}
+
+	protected String getUpdateQuery(QueryParamsMap map) {
+		StringBuilder sb = new StringBuilder();
+		sb.append("UPDATE ").append(TABLE_NAME).append(" SET ");
+		sb.append(" NAME=\"").append(map.value("NAME")).append("\"");
+		sb.append(" WHERE ID = ").append(map.value("ID")).append(";");
+		System.out.println(sb.toString());
+		return sb.toString();
+	}
+
 	public SatelliteDAO(Connection conn) {
 		super(conn);
 		TABLE_NAME = "TB_SATELLITE";

@@ -23,7 +23,5 @@ public class SatelliteRelayServer {
 		}
 		SatelliteRelayTrayIcon tray = new SatelliteRelayTrayIcon();
 		tray.run();
-		
-		
 	}
 }

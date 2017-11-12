@@ -30,7 +30,7 @@ public class RelayService {
 
 	public void run() throws Exception {
 		logger.info("[RelayService] run");
-		
+		serviceDB.runningToFail();
 		for (ProductInfo info : products) {
 			SatelliteDTO satelliteInfo = serviceDB.getSatelliteInfo(info.satelliteID);
 			info.setSatelliteInfo(satelliteInfo);

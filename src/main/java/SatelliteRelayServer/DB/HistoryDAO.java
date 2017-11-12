@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.time.LocalDateTime;
 
 public class HistoryDAO extends BaseDAO{
 	public HistoryDAO(Connection conn) {
@@ -22,7 +23,7 @@ public class HistoryDAO extends BaseDAO{
 	public int createHistoryLog(int productID) {
 		int id = getNewID();
 		String state = "RUNNING";
-		String StartDateTime ="";
+		String StartDateTime = LocalDateTime.now().toString();
 		
 		Statement stmt = null;
 		try {
@@ -72,6 +73,30 @@ public class HistoryDAO extends BaseDAO{
 		}
 	}
 
+	public void runningToFail() {
+		Statement stmt = null;
+		try {
+			// SQL문을 실행한다.
+			stmt = conn.createStatement();
+			String query = "UPDATE TB_RELAY_HISTORY " 
+					+ "SET STATE = 'FAIL' "
+					+ "WHERE STATE = 'RUNNING' ";
+			boolean ret = stmt.execute(query);
+			conn.commit();
+			if (ret == false) {
+				return;
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				stmt.close(); // ResultSet를 닫는다.
+			} catch (SQLException e) {
+			}
+		}
+	}
+	
 	private String getHistoryLog(int historyID) {
 		Statement stmt = null;
 		ResultSet rs = null;

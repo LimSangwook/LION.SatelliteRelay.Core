@@ -9,6 +9,8 @@ import java.sql.Statement;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import spark.QueryParamsMap;
+
 public class BaseDAO {
 	String TABLE_NAME = "";
 	String DDL = "";
@@ -48,7 +50,6 @@ public class BaseDAO {
 				cnt = rs.getInt("COUNT");
 			}
 		} catch (Exception e) {
-			
 			e.printStackTrace();
 		} finally {
 			try {
@@ -84,7 +85,7 @@ public class BaseDAO {
 	}
 	
 	public JSONArray getListJsonArray(int listPerPage, int nowPage, boolean bASC) {
-		String query = "SELECT * FROM "+TABLE_NAME + "  ORDER BY ID " + (bASC?"ASC":"DESC") + " LIMIT 20 OFFSET " + (20 * (nowPage-1)) + ";";
+		String query = "SELECT * FROM "+TABLE_NAME + "  ORDER BY ID " + (bASC?"ASC":"DESC") + " LIMIT 15 OFFSET " + (15 * (nowPage-1)) + ";";
 		return getQueryResultToJSON(query);
 	}
 	
@@ -135,5 +136,57 @@ public class BaseDAO {
 			stmt.close();
 		}
 		return;		
+	}
+
+	public boolean Insert(QueryParamsMap queryMap) {
+		Statement stmt = null;
+		boolean ret =false;
+		try {
+			stmt = conn.createStatement();
+			stmt.executeUpdate(getInsertQuery(queryMap));
+			conn.commit();
+			ret = true;
+		} catch (Exception e) {
+			e.printStackTrace();
+			ret = false;
+		} finally {
+			try {
+				stmt.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return ret;		
+	}
+
+	protected String getInsertQuery(QueryParamsMap queryMap) {
+		System.out.println("@@@@@@");
+		return "";
+	}
+
+	public boolean Update(QueryParamsMap queryMap) {
+		Statement stmt = null;
+		boolean ret =false;
+		try {
+			stmt = conn.createStatement();
+			stmt.executeUpdate(getUpdateQuery(queryMap));
+			conn.commit();
+			ret = true;
+		} catch (Exception e) {
+			e.printStackTrace();
+			ret = false;
+		} finally {
+			try {
+				stmt.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return ret;	
+	}
+
+	protected String getUpdateQuery(QueryParamsMap queryMap) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

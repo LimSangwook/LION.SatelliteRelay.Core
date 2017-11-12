@@ -1,8 +1,6 @@
 package SatelliteRelayServer.RelayService;
 
 import java.io.File;
-import java.io.IOException;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
@@ -42,10 +40,11 @@ public class RelayProductService extends TimerTask {
 	
 	
 	private boolean initServers() {
-		logger.info("\t [Schedule Job] Init SendServers");
-		historySaver.add(historyID, "[InitSendServers] FTP init ");
+		logger.info("\t [Schedule Job] Init FTP");
+		historySaver.add(historyID, "[InitSendServers] init FTP  ");
 		targetFTP = new TargetFTP();
-		historySaver.add(historyID, "[InitSendServers] DB init ");
+		logger.info("\t [Schedule Job] Init DB");
+		historySaver.add(historyID, "[InitSendServers] init DB ");
 		targetDB = new TargetDB();
 		if ((targetFTP.init(serviceDB) && targetDB.init(serviceDB))) {
 			logger.info("\t [Schedule Job] Completed Init SendServers");

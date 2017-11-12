@@ -10,6 +10,7 @@ import java.util.List;
 import SatelliteRelayServer.Models.ProductInfoAppendix;
 import SatelliteRelayServer.Models.ProductInfo;
 import SatelliteRelayServer.Models.ProductInfo.ScheduleTYPE;
+import spark.QueryParamsMap;
 
 public class ProductDAO extends BaseDAO {
 	
@@ -44,7 +45,6 @@ public class ProductDAO extends BaseDAO {
 				+ "    PRIMARY KEY(`ID`) "
 				+ "  );";
 	}
-	
 	public List<ProductInfo> getProducts() {
 		List<ProductInfo> list = new ArrayList<ProductInfo>();
 
@@ -68,6 +68,70 @@ public class ProductDAO extends BaseDAO {
 			}
 		}
 		return list;
+	}
+	protected String getInsertQuery(QueryParamsMap map) {
+		StringBuilder sb = new StringBuilder();
+		StringBuilder values = new StringBuilder();
+		values.append(" (").append(getNewID())
+			.append(",").append(map.value("SATELLITE_ID"))
+			.append(",\"").append(map.value("NAME")).append("\"")
+			.append(",\"").append(map.value("SOURCEPATH")).append("\"")
+			.append(",\"").append(map.value("TARGETPATH")).append("\"")
+			.append(",\"").append(map.value("TARGETPATH_TYPE")).append("\"")
+			.append(",\"").append(map.value("FILTER_TYPE")).append("\"")
+			.append(",\"").append(map.value("FILTER_SIMPLE")).append("\"")
+			.append(",\"").append(map.value("FILTER_REGEXP")).append("\"")
+			.append(",\"").append(map.value("SCHEDULE_TIME")).append("\"")
+			.append(",\"").append(map.value("COORD_UL")).append("\"")
+			.append(",\"").append(map.value("COORD_LR")).append("\"")
+			.append(",\"").append(map.value("REG_DATE")).append("\"")
+			.append(",").append(map.value("PIXEL_ROW"))
+			.append(",").append(map.value("PIXEL_COL"))
+			.append(",\"").append(map.value("DATA_TYPE")).append("\"")
+			.append(",\"").append(map.value("PROJECTION")).append("\"")
+			.append(",\"").append(map.value("QUICK_LOOK")).append("\"")
+			.append(",\"").append(map.value("DATA_GBN")).append("\"")
+			.append(",\"").append(map.value("DATA_AN_GBN")).append("\"")
+			.append(",\"").append(map.value("RESOLUTION")).append("\"")
+			.append(",\"").append(map.value("FILE_STATUS")).append("\"")
+			.append(",\"").append(map.value("MOUNT_POINT")).append("\"")
+			.append(",\"").append(map.value("DATA_OPEN")).append("\")");
+		sb.append("INSERT INTO ").append(TABLE_NAME).append(" VALUES ").append(values);
+		System.out.println(sb.toString());
+		return sb.toString();
+	}
+	
+	protected String getUpdateQuery(QueryParamsMap map) {
+		StringBuilder sb = new StringBuilder();
+		sb.append("UPDATE ").append(TABLE_NAME).append(" SET ");
+		
+		sb.append(" SATELLITE_ID=").append(map.value("SATELLITE_ID")).append("")
+			.append(", NAME=\"").append(map.value("NAME")).append("\"")
+			.append(", SOURCEPATH=\"").append(map.value("SOURCEPATH")).append("\"")
+			.append(", TARGETPATH=\"").append(map.value("TARGETPATH")).append("\"")
+			.append(", TARGETPATH_TYPE=\"").append(map.value("TARGETPATH_TYPE")).append("\"")
+			.append(", FILTER_TYPE=\"").append(map.value("FILTER_TYPE")).append("\"")
+			.append(", FILTER_SIMPLE=\"").append(map.value("FILTER_SIMPLE")).append("\"")
+			.append(", FILTER_REGEXP=\"").append(map.value("FILTER_REGEXP")).append("\"")
+			.append(", SCHEDULE_TIME=\"").append(map.value("SCHEDULE_TIME")).append("\"")
+			.append(", COORD_UL=\"").append(map.value("COORD_UL")).append("\"")
+			.append(", COORD_LR=\"").append(map.value("COORD_LR")).append("\"")
+			.append(", REG_DATE=\"").append(map.value("REG_DATE")).append("\"")
+			.append(", PIXEL_ROW=").append(map.value("PIXEL_ROW"))
+			.append(", PIXEL_COL=").append(map.value("PIXEL_COL"))
+			.append(", DATA_TYPE=\"").append(map.value("DATA_TYPE")).append("\"")
+			.append(", PROJECTION=\"").append(map.value("PROJECTION")).append("\"")
+			.append(", QUICK_LOOK=\"").append(map.value("QUICK_LOOK")).append("\"")
+			.append(", DATA_GBN=\"").append(map.value("DATA_GBN")).append("\"")
+			.append(", DATA_AN_GBN=\"").append(map.value("DATA_AN_GBN")).append("\"")
+			.append(", RESOLUTION=\"").append(map.value("RESOLUTION")).append("\"")
+			.append(", FILE_STATUS=\"").append(map.value("FILE_STATUS")).append("\"")
+			.append(", MOUNT_POINT=\"").append(map.value("MOUNT_POINT")).append("\"")
+			.append(", DATA_OPEN=\"").append(map.value("DATA_OPEN")).append("\"");
+
+		sb.append(" WHERE ID = ").append(map.value("ID")).append(";");
+		System.out.println(sb.toString());
+		return sb.toString();
 	}
 	
 	private ProductInfo getRelayProductInfo(ResultSet rs, ProductInfoAppendix tbIdemtityColumns) throws SQLException {

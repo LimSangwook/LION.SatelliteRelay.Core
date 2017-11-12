@@ -9,8 +9,8 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.json.JSONArray;
-import org.json.JSONObject;
 
+import SatelliteRelayServer.DB.BaseDAO;
 import SatelliteRelayServer.DB.HistoryDAO;
 import SatelliteRelayServer.DB.ProductDAO;
 import SatelliteRelayServer.DB.SatelliteDTO;
@@ -19,6 +19,7 @@ import SatelliteRelayServer.DB.ServerInfoDAO;
 import SatelliteRelayServer.Models.ProductInfo;
 import SatelliteRelayServer.Models.SendDBInfo;
 import SatelliteRelayServer.Models.SendFTPInfo;
+import spark.QueryParamsMap;
 
 public class SatelliteRelayDBManager {
 	static Logger logger = Logger.getLogger(SatelliteRelayDBManager.class);
@@ -45,11 +46,12 @@ public class SatelliteRelayDBManager {
 		logger.debug("[SatelliteRelayServiceDB] connectDB");
 		try {
 			Class.forName("org.sqlite.JDBC");
-			conn = DriverManager.getConnection("jdbc:sqlite:SetelliteRelayV0.1.db");
+			conn = DriverManager.getConnection("jdbc:sqlite:./conf/SetelliteRelayV0.1.db");
 			conn.setAutoCommit(false);
 			satelliteDAO = new SatelliteDAO(conn);
 			historyDAO = new HistoryDAO(conn);
 			productDAO = new ProductDAO(conn);
+			serverInfoDAO = new ServerInfoDAO(conn);
 		} catch (Exception e) {
 			System.err.println(e.getClass().getName() + ": " + e.getMessage());
 			logger.error("[SatelliteRelayServiceDB] ConnectDB - " + e.getMessage());
@@ -64,7 +66,7 @@ public class SatelliteRelayDBManager {
 			satelliteDAO.checkNCreateTable();
 			productDAO.checkNCreateTable();
 			historyDAO.checkNCreateTable();
-			historyDAO.checkNCreateTable();
+//			serverInfoDAO.checkNCreateTable();
 		} catch (Exception e) {
 			System.err.println(e.getClass().getName() + ": " + e.getMessage());
 			logger.error("[SatelliteRelayServiceDB] CheckDefaultTables - " + e.getMessage());
@@ -171,26 +173,18 @@ public class SatelliteRelayDBManager {
 		return historyDAO.getListJsonArray(listPerPage, nowPage, false);
 	}
 
-	public JSONObject getHistoryLog(int id) {
-		// TODO Auto-generated method stub
-		return null;
+	public int getCount(String string) {
+		return getDAO(string).getCount();
 	}
-
-	public int getHistoryCount() {
-		return historyDAO.getCount();
-	}
-
-	public int getSatelliteCount() {
-		return satelliteDAO.getCount();
-	}
-
+	
 	public JSONArray getSatelliteListJsonArray(int listPerPage, int nowPage) {
 		return satelliteDAO.getListJsonArray(listPerPage, nowPage, true);
 	}
 
-	public boolean deleteSatellite(int id) {
+	public boolean delete(String string, int id) {
+		BaseDAO aDAO = getDAO(string);
 		try {
-			satelliteDAO.delete(id);
+			aDAO.delete(id);
 		} catch (Exception e) {
 			logger.error(e.getMessage());
 			e.printStackTrace();
@@ -198,27 +192,46 @@ public class SatelliteRelayDBManager {
 		}
 		return true;
 	}
-
-	public boolean deleteProduct(int id) {
-		try {
-			productDAO.delete(id);
-		} catch (Exception e) {
-			logger.error(e.getMessage());
-			e.printStackTrace();
-			return false;
+	
+	private BaseDAO getDAO(String string) {
+		switch(string) {
+		case "Satellite":
+			return satelliteDAO;
+		case "Product":
+			return productDAO;
+		case "History":
+			return historyDAO;
+		case "ServerInfo":
+			return serverInfoDAO;
 		}
-		return true;
+		return null;
 	}
 
 	public JSONArray getProductListJsonArray(int listPerPage, int nowPage) {
 		return productDAO.getListJsonArray(listPerPage, nowPage, true);
 	}
 
-	public int getProductCount() {
-		return productDAO.getCount();
-	}
-
 	public void setHistoryFileCount(int historyID, int count) {
 		historyDAO.setFileCount(historyID, count);
+	}
+
+	public void runningToFail() {
+		historyDAO.runningToFail();
+	}
+
+	public boolean Create(String table, QueryParamsMap queryMap) {
+		return getDAO(table).Insert(queryMap);
+	}
+
+	public boolean Update(String table, QueryParamsMap queryMap) {
+		return getDAO(table).Update(queryMap);
+	}
+
+	public boolean UpdateFTPInfo(QueryParamsMap queryMap) {
+		return serverInfoDAO.UpdateFTPInfo(queryMap);
+	}
+
+	public boolean UpdateDBInfo(QueryParamsMap queryMap) {
+		return serverInfoDAO.UpdateDBInfo(queryMap);
 	}
 }
