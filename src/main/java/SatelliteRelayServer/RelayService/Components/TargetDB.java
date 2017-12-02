@@ -39,7 +39,31 @@ public class TargetDB {
 		}
 		return true;
 	}
+	public boolean existFileNameInDB(String filename) {
+		boolean ret = false;
+		try {
+			stmt = conn.createStatement();
+			// SQL문을 실행한다.
+			String query = "SELECT count(*) as cnt FROM TB_IDENTITY_LIST WHERE IDENTIFIER='" + filename + "'";
+			logger.info(" Execute Query : " + query);
+			rs = stmt.executeQuery(query);
 
+			if (rs.next() && rs.getInt("cnt") > 0) {
+				ret = true;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			ret = false;
+		} finally {
+			try {
+				rs.close(); // ResultSet를 닫는다.
+				stmt.close();
+			} catch (SQLException e) {
+				ret = false;
+			}
+		}
+		return ret;
+	}
 	public boolean insert(ProductInfo productInfo, File afile) {
 		try {
 			// Statement를 가져온다.
@@ -48,6 +72,7 @@ public class TargetDB {
 			// SQL문을 실행한다.
 			productInfo.appendixColumns.SEQ = getNewSEQ(stmt);
 			String query = productInfo.getDBInsertQuery(afile);
+			logger.info(" Execute Query : " + query);
 			rs = stmt.executeQuery(query);
 
 			if (rs.next()) {
@@ -72,6 +97,8 @@ public class TargetDB {
 		try {
 			// SQL문을 실행한다.
 			String query = "SELECT MAX(SEQ) as SEQ FROM TB_IDENTITY_LIST";
+			logger.info(" Execute Query : " + query);
+			
 			rs = stmt.executeQuery(query);
 
 			if (rs.next()) {
@@ -89,6 +116,35 @@ public class TargetDB {
 	}
 
 	public void close() throws SQLException {
-		conn.close();
+		if (conn != null) {
+			conn.close();
+		}
+	}
+	public boolean update(ProductInfo productInfo, File afile) {
+		try {
+			// Statement를 가져온다.
+			stmt = conn.createStatement();
+
+			// SQL문을 실행한다.
+			String query = productInfo.getDBUpdateQuery(afile);
+			logger.info(" Execute Query : " + query);
+			
+			rs = stmt.executeQuery(query);
+
+			if (rs.next()) {
+				logger.info(" DB Update !!!");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		} finally {
+			try {
+				rs.close(); // ResultSet를 닫는다.
+				stmt.close();
+			} catch (SQLException e) {
+				return false;
+			}
+		}
+		return true;
 	}
 }

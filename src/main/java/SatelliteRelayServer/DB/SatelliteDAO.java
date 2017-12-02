@@ -13,8 +13,9 @@ public class SatelliteDAO extends BaseDAO {
 		StringBuilder sb = new StringBuilder();
 		StringBuilder columns = new StringBuilder();
 		StringBuilder values = new StringBuilder();
-		columns.append(" (ID, NAME)");
-		values.append(" (").append(getNewID()).append(",\"").append(map.value("SatelliteName")).append("\")");
+		int productID = getNewID();
+		columns.append(" (ID, NAME, RESOLUTION)");
+		values.append(" (").append(productID).append(",\"").append(map.value("SatelliteName")).append("\"").append(",\"").append(map.value("Resolution")).append("\")");
 		
 		sb.append("INSERT INTO ").append(TABLE_NAME).append(columns).append(" VALUES ").append(values);
 		return sb.toString();
@@ -24,8 +25,8 @@ public class SatelliteDAO extends BaseDAO {
 		StringBuilder sb = new StringBuilder();
 		sb.append("UPDATE ").append(TABLE_NAME).append(" SET ");
 		sb.append(" NAME=\"").append(map.value("NAME")).append("\"");
+		sb.append(" ,RESOLUTION=\"").append(map.value("RESOLUTION")).append("\"");
 		sb.append(" WHERE ID = ").append(map.value("ID")).append(";");
-		System.out.println(sb.toString());
 		return sb.toString();
 	}
 
@@ -34,7 +35,8 @@ public class SatelliteDAO extends BaseDAO {
 		TABLE_NAME = "TB_SATELLITE";
 		DDL = "CREATE TABLE TB_SATELLITE ("
 				+ " ID 		INT PRIMARY KEY     NOT NULL,"
-				+ " NAME    TEXT    NOT NULL)";
+				+ " NAME    TEXT    NOT NULL,"
+				+ " RESOLUTION    TEXT)";
 	}
 
 	public SatelliteDTO getSatelliteInfo(int satelliteID) {

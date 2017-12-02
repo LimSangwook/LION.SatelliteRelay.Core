@@ -12,20 +12,23 @@ import SatelliteRelayServer.DB.SatelliteDTO;
 public class ProductInfo {
 	
 	static Logger logger = Logger.getLogger(ProductInfo.class);
-	public enum ScheduleTYPE {EVERY_DAY,EVERY_HOUR,EVERY_MIN};
+	public enum SCHEDULE_TYPE {EVERY_DAY,EVERY_HOUR,EVERY_MIN};
 	public enum TARGETPATH_TYPE {PATH_ONLY, YYYYMM, YYYY_MM, YYYY_MM_DD};
 	public enum FILTER_TYPE {NONE, SIMPLE, REGEXP};
+	public enum PROCESS_TYPE {DB_FTP, DB_ONLY, FTP_ONLY, REMOVE_LOCAL_ONLY};
 
 	public String productName;
 	public int productID;
 	public int satelliteID;
+	public String satelliteName;
+	public PROCESS_TYPE processTYPE;
 	public String sourcePath;
 	public String oriTargetPath;
 	public TARGETPATH_TYPE targetPath_type;
 	public FILTER_TYPE filterType;//1:Simple FIlter, 2:Regexp
 	public String filterSimple;
 	public String filterRegexp;
-	public ScheduleTYPE scheduleTYPE = ScheduleTYPE.EVERY_DAY;
+	public SCHEDULE_TYPE scheduleTYPE = SCHEDULE_TYPE.EVERY_DAY;
 	public String scheduleTime = null;
 	public SatelliteDTO satelliteInfo = null;
 	public ProductInfoAppendix appendixColumns = null;
@@ -38,10 +41,12 @@ public class ProductInfo {
 		this.satelliteInfo = satelliteInfo;
 	}
 
-	public ProductInfo(String productName, int productID, int satelliteID, ScheduleTYPE scheduleTYPE, String filterTypeStr, String filterSimple, String filterRegexp, String scheduleTimeString, String sourcePath, String targetPath, String targetPathTypeStr, ProductInfoAppendix tbColumns) {
+	public ProductInfo(String productName, int productID, int satelliteID, String satelliteName, PROCESS_TYPE processType, SCHEDULE_TYPE scheduleTYPE, String filterTypeStr, String filterSimple, String filterRegexp, String scheduleTimeString, String sourcePath, String targetPath, String targetPathTypeStr, ProductInfoAppendix tbColumns) {
 		this.productName = productName;
 		this.productID = productID;
 		this.satelliteID = satelliteID;
+		this.satelliteName = satelliteName;
+		this.processTYPE = processType;
 		this.scheduleTYPE = scheduleTYPE;
 		this.sourcePath = sourcePath;
 		this.oriTargetPath = targetPath;
@@ -178,5 +183,33 @@ public class ProductInfo {
 
 	public String getFilterSimple() {
 		return filterSimple;
+	}
+
+	public String getDBUpdateQuery(File afile) {
+		setAppendixColumns(afile);
+		
+		String query = "UPDATE TB_IDENTITY_LIST "
+				+ " SET SURVEY_DATE='"+appendixColumns.SURVEY_DATE+"'"
+				+ ",COORD_UL='" + appendixColumns.COORD_UL + "'"
+				+ ",COORD_LR='" + appendixColumns.COORD_LR + "'"
+				+ ",PIXEL_ROW='" + appendixColumns.PIXEL_ROW + "'"
+				+ ",PIXEL_COL='" + appendixColumns.PIXEL_COL + "'"
+				+ ",DATA_TYPE='" + appendixColumns.DATA_TYPE + "'"
+				+ ",DATA_FORMAT='" + appendixColumns.DATA_FORMAT + "'"
+				+ ",PROJECTION='" + appendixColumns.PROJECTION + "'"
+				+ ",QUICK_LOOK='" + appendixColumns.QUICK_LOOK + "'"
+				+ ",DATA_GBN='" + appendixColumns.DATA_GBN + "'"
+				+ ",DATA_AN_GBN='" + appendixColumns.DATA_AN_GBN + "'"
+				+ ",SATELLITE='" + appendixColumns.SATELLITE + "'"
+				+ ",RESOLUTION='" + appendixColumns.RESOLUTION + "'"
+				+ ",FILE_SIZE='" + appendixColumns.FILE_SIZE + "'"
+				+ ",FILE_STATUS='" + appendixColumns.FILE_STATUS + "'"
+				+ ",FILE_PATH='" + appendixColumns.FILE_PATH + "'"
+				+ ",REG_DATE='" + appendixColumns.REG_DATE + "'"
+				+ ",MOUNT_POINT='" + appendixColumns.MOUNT_POINT + "'"
+				+ ",DATA_OPEN='" + appendixColumns.DATA_OPEN + "'"
+				+ ",SURVEY_TIME='" + appendixColumns.SURVEY_TIME + "'"
+				+ " WHERE IDENTIFIER='" + appendixColumns.IDENTIFIER + "'";
+		return query;
 	}
 }

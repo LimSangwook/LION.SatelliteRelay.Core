@@ -11,6 +11,7 @@ import org.apache.log4j.Logger;
 import SatelliteRelayServer.SatelliteRelayDBManager;
 import SatelliteRelayServer.Models.ProductInfo;
 import SatelliteRelayServer.Models.ProductInfo.FILTER_TYPE;
+import SatelliteRelayServer.Models.ProductInfo.PROCESS_TYPE;
 import SatelliteRelayServer.RelayService.Components.HistorySaver;
 import SatelliteRelayServer.RelayService.Components.TargetDB;
 import SatelliteRelayServer.RelayService.Components.TargetFTP;
@@ -26,6 +27,9 @@ public class RelayProductService extends TimerTask {
 	private TargetDB targetDB = null;
 	SatelliteRelayDBManager serviceDB = null;
 	
+	public ProductInfo getProductInfo() {
+		return productInfo;
+	}
 	public RelayProductService(ProductInfo info, SatelliteRelayDBManager serviceDB) {
 		this.productInfo = info;
 		this.serviceDB = serviceDB;
@@ -33,30 +37,48 @@ public class RelayProductService extends TimerTask {
 	}
 
 	public void registSchedule() {
-		logger.info("[RelayProductService] registSchedule : ("+ productInfo.productID + ") - " + productInfo.productName);
-		System.out.println(productInfo.getScheduleStartDate().toString());
+		logger.info("[RelayProductService] registSchedule ID:"+ productInfo.productID + " NAME:" + productInfo.productName + " FirstTime:" + productInfo.getScheduleStartDate().toString());
 	    jobScheduler.scheduleAtFixedRate(this, productInfo.getScheduleStartDate(), productInfo.getSchduleInterval());
 	}
 	
-	
 	private boolean initServers() {
-		logger.info("\t [Schedule Job] Init FTP");
-		historySaver.add(historyID, "[InitSendServers] init FTP  ");
-		targetFTP = new TargetFTP();
-		logger.info("\t [Schedule Job] Init DB");
-		historySaver.add(historyID, "[InitSendServers] init DB ");
-		targetDB = new TargetDB();
-		if ((targetFTP.init(serviceDB) && targetDB.init(serviceDB))) {
-			logger.info("\t [Schedule Job] Completed Init SendServers");
-			historySaver.add(historyID, "[InitSendServers] Completed ");
+		logger.info("\t [Schedule Job] init Server - ProcessTYPE : " + productInfo.processTYPE);		
+		historySaver.add(historyID, "[InitSendServers] init Server - ProcessTYPE : " + productInfo.processTYPE);		
+		// init FTP
+		if (productInfo.processTYPE==PROCESS_TYPE.DB_FTP || productInfo.processTYPE==PROCESS_TYPE.FTP_ONLY) {
+			logger.info("\t [Schedule Job] Init FTP");
+			historySaver.add(historyID, "[InitSendServers] init FTP  ");
+			targetFTP = new TargetFTP();
+		}
+		
+		// init DB
+		if (productInfo.processTYPE==PROCESS_TYPE.DB_FTP || productInfo.processTYPE==PROCESS_TYPE.DB_ONLY) {
+			logger.info("\t [Schedule Job] Init DB");
+			historySaver.add(historyID, "[InitSendServers] init DB ");
+			targetDB = new TargetDB();
+			if ((targetFTP.init(serviceDB) && targetDB.init(serviceDB))) {
+				logger.info("\t [Schedule Job] Completed Init SendServers");
+				historySaver.add(historyID, "[InitSendServers] Completed ");
+				return true;
+			}
+		}
+		
+		// REMOVE LOCAL ONLY
+		if (productInfo.processTYPE==PROCESS_TYPE.REMOVE_LOCAL_ONLY) {
+			logger.info("\t [Schedule Job] Init SKIP");
+			historySaver.add(historyID, "[InitSendServers] init SKIP");
 			return true;
 		}
 		historySaver.add(historyID, "[InitSendServers] Fail ");
 		return false;
 	}
 	private void closeServers() throws Exception {
-		targetFTP.close();
-		targetDB.close();
+		if (productInfo.processTYPE==PROCESS_TYPE.DB_FTP || productInfo.processTYPE==PROCESS_TYPE.DB_ONLY) {
+			targetDB.close();
+		}
+		if (productInfo.processTYPE==PROCESS_TYPE.DB_FTP || productInfo.processTYPE==PROCESS_TYPE.FTP_ONLY) {
+			targetFTP.close();
+		}
 	}	
 	
 	public void run() {
@@ -69,8 +91,27 @@ public class RelayProductService extends TimerTask {
 		boolean bResult = false;
 		if (task0InitNCheck() && task1Filtering(matchedFileList)) {
 			for (File afile : matchedFileList ) {
-				if (task2FTPTransmition(afile) && task3DBInsert(afile) && task4FileRemove(afile)) {
-					bResult = true;
+				switch(productInfo.processTYPE) {
+				case DB_FTP:
+					if (task2FTPTransmition(afile) && task3DBInsert(afile) && task4FileRemove(afile)) {
+						bResult = true;
+					}
+					break;
+				case DB_ONLY:
+					if (task3DBInsert(afile) && task4FileRemove(afile)) {
+						bResult = true;
+					}
+					break;
+				case FTP_ONLY:
+					if (task2FTPTransmition(afile) & task4FileRemove(afile)) {
+						bResult = true;
+					}
+					break;
+				case REMOVE_LOCAL_ONLY:
+					if (task4FileRemove(afile)) {
+						bResult = true;
+					}
+					break;
 				}
 			}
 		}
@@ -106,7 +147,10 @@ public class RelayProductService extends TimerTask {
 	private boolean task1Filtering(List<File> matchedFileList) {
 		logger.info("\t [Schedule Job (" + historyID + ")] PID : " + productInfo.productID + "-" + productInfo.productName + " - Task1-Filtering START");
 		historySaver.add(historyID, "[STEP1] START : Filtering ");
-		historySaver.add(historyID, "[STEP1] File Matching RegularExpression : " + productInfo.getFilterRegularExpression());
+		historySaver.add(historyID, "[STEP1] Filter Type : " + productInfo.getFilterType().toString());
+		historySaver.add(historyID, "[STEP1] Simple Filter : " + productInfo.getFilterSimple());
+		historySaver.add(historyID, "[STEP1] RegularExpression : " + productInfo.getFilterRegularExpression());
+
 		findMatchedFiles(matchedFileList, productInfo.getSourcePath(), productInfo.getFilterType(), productInfo.getFilterSimple(), productInfo.getFilterRegularExpression());
 		historySaver.add(historyID, "[STEP1] matched count : " + matchedFileList.size());
 		historySaver.setFileCount(historyID, matchedFileList.size());
@@ -134,25 +178,25 @@ public class RelayProductService extends TimerTask {
 	}
 
 	private void findMatchedFiles(List<File> matchFile, File path, FILTER_TYPE filter_TYPE, String simpleFilter, String regex) {
-		if (path.isDirectory()) {
-			for (File aFile : path.listFiles()) {
-				findMatchedFiles(matchFile, aFile, filter_TYPE, simpleFilter, regex);
-			}
-		} else {
-			if (path.canWrite() == false) return; // Lock 걸려있으면 패스
-			switch (filter_TYPE) {
-			case SIMPLE:	
-				if (path.getName().contains(simpleFilter) == true) {
-					matchFile.add(path);
+		for (File aFile : path.listFiles()) {
+			if (aFile.isDirectory()) {
+				continue;
+			} else {
+				if (aFile.canWrite() == false) return; // Lock 걸려있으면 패스
+				switch (filter_TYPE) {
+				case SIMPLE:	
+					if (aFile.getName().contains(simpleFilter) == true) {
+						matchFile.add(aFile);
+					}
+					break;
+				case REGEXP:
+					if (aFile.getName().matches(regex) == true) {
+						matchFile.add(aFile);
+					}
+					break;
+				default:
+					break;
 				}
-				break;
-			case REGEXP:
-				if (path.getName().matches(regex) == true) {
-					matchFile.add(path);
-				}
-				break;
-			default:
-				break;
 			}
 		}
 	}	
@@ -183,9 +227,18 @@ public class RelayProductService extends TimerTask {
 		logger.info("\t [Schedule Job (" + historyID + ")] PID : " + productInfo.productID + "-" + productInfo.productName + " - Task3-DBInsert START -" + afile.getName());
 		historySaver.add(historyID, "[STEP3] START : DB Insert -" + afile.getName());
 
-		if (targetDB.insert(productInfo, afile) == false) {
-			historySaver.add(historyID, "[STEP3] File : " + afile.getName() + " DB Insert Error!!");
-			return false;
+		if (targetDB.existFileNameInDB(afile.getName()) == true) {
+			historySaver.add(historyID, "[STEP3] Check Exist File Name(IDENTIFIER) : true -> Update");
+			if (targetDB.update(productInfo, afile) == false) {
+				historySaver.add(historyID, "[STEP3] File : " + afile.getName() + " DB Insert update!!");
+				return false;
+			}
+		} else {
+			historySaver.add(historyID, "[STEP3] Check Exist File Name(IDENTIFIER) : false -> Insert ");
+			if (targetDB.insert(productInfo, afile) == false) {
+				historySaver.add(historyID, "[STEP3] File : " + afile.getName() + " DB Insert Error!!");
+				return false;
+			}
 		}
 		historySaver.add(historyID, "[STEP3] File : " + afile.getName() + " DB Insert finished, SEQ : " + productInfo.appendixColumns.SEQ);
 

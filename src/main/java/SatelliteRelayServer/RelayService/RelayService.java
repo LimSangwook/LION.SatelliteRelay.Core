@@ -30,7 +30,7 @@ public class RelayService {
 
 	public void run() throws Exception {
 		logger.info("[RelayService] run");
-		serviceDB.runningToFail();
+		serviceDB.setStatusRunningToFail();
 		for (ProductInfo info : products) {
 			SatelliteDTO satelliteInfo = serviceDB.getSatelliteInfo(info.satelliteID);
 			info.setSatelliteInfo(satelliteInfo);
@@ -39,9 +39,29 @@ public class RelayService {
 			productServiceList.add(productService);
 		}
 	}
-	public void stopService() {
+	
+	public void removeService(int productID) {
 		for (RelayProductService productService : productServiceList) {
-			productService.stop();
+			if (productService.getProductInfo().productID == productID) {
+				productService.stop();
+				productServiceList.remove(productService);
+				break;
+			}
 		}
+	}
+	
+	public void addService(int productID) {
+		ProductInfo product = serviceDB.getProduct(productID);
+		
+		SatelliteDTO satelliteInfo = serviceDB.getSatelliteInfo(product.satelliteID);
+		product.setSatelliteInfo(satelliteInfo);
+		RelayProductService productService = new RelayProductService(product, serviceDB);
+		productService.registSchedule();
+		productServiceList.add(productService);
+	}
+	
+	public void reloadService(int productID) {
+		removeService(productID);
+		addService(productID);
 	}
 }

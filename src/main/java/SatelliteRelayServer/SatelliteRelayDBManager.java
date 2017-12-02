@@ -29,6 +29,8 @@ public class SatelliteRelayDBManager {
 	ProductDAO productDAO = null;
 	HistoryDAO historyDAO = null;
 	ServerInfoDAO serverInfoDAO = null;
+//	DataGBNDAO dataGBNDAO = null;
+//	DataANGBNDAO dataANGBNDAO = null;
 
 	SendDBInfo sendDBInfo = new SendDBInfo();
 	SendFTPInfo sendFTPInfo = new SendFTPInfo();
@@ -46,12 +48,14 @@ public class SatelliteRelayDBManager {
 		logger.debug("[SatelliteRelayServiceDB] connectDB");
 		try {
 			Class.forName("org.sqlite.JDBC");
-			conn = DriverManager.getConnection("jdbc:sqlite:./conf/SetelliteRelayV0.1.db");
+			conn = DriverManager.getConnection("jdbc:sqlite:./conf/SatelliteRelayV0.1.db");
 			conn.setAutoCommit(false);
 			satelliteDAO = new SatelliteDAO(conn);
-			historyDAO = new HistoryDAO(conn);
-			productDAO = new ProductDAO(conn);
+			productDAO = new ProductDAO(conn, satelliteDAO.getTableName());
+			historyDAO = new HistoryDAO(conn, productDAO.getTableName());
 			serverInfoDAO = new ServerInfoDAO(conn);
+//			dataGBNDAO = new DataGBNDAO(conn);
+//			dataANGBNDAO = new DataANGBNDAO(conn);
 		} catch (Exception e) {
 			System.err.println(e.getClass().getName() + ": " + e.getMessage());
 			logger.error("[SatelliteRelayServiceDB] ConnectDB - " + e.getMessage());
@@ -66,7 +70,9 @@ public class SatelliteRelayDBManager {
 			satelliteDAO.checkNCreateTable();
 			productDAO.checkNCreateTable();
 			historyDAO.checkNCreateTable();
-//			serverInfoDAO.checkNCreateTable();
+			serverInfoDAO.checkNCreateTable();
+//			dataGBNDAO.checkNCreateTable();
+//			dataANGBNDAO.checkNCreateTable();
 		} catch (Exception e) {
 			System.err.println(e.getClass().getName() + ": " + e.getMessage());
 			logger.error("[SatelliteRelayServiceDB] CheckDefaultTables - " + e.getMessage());
@@ -215,8 +221,8 @@ public class SatelliteRelayDBManager {
 		historyDAO.setFileCount(historyID, count);
 	}
 
-	public void runningToFail() {
-		historyDAO.runningToFail();
+	public void setStatusRunningToFail() {
+		historyDAO.setStatusRunningToFail();
 	}
 
 	public boolean Create(String table, QueryParamsMap queryMap) {
@@ -228,10 +234,27 @@ public class SatelliteRelayDBManager {
 	}
 
 	public boolean UpdateFTPInfo(QueryParamsMap queryMap) {
-		return serverInfoDAO.UpdateFTPInfo(queryMap);
+		if (serverInfoDAO.UpdateFTPInfo(queryMap) == true) {
+			sendFTPInfo.setFromParamsMap(queryMap);
+			return true;
+		}
+		return false; 
 	}
 
 	public boolean UpdateDBInfo(QueryParamsMap queryMap) {
-		return serverInfoDAO.UpdateDBInfo(queryMap);
+		if (serverInfoDAO.UpdateDBInfo(queryMap) == true) {
+			sendDBInfo.setFromParamsMap(queryMap);
+			return true;
+		}
+		return false; 
+	}
+
+	public ProductInfo getProduct(int productID) {
+		logger.info("[SatelliteRelayServiceDB] getProduct(" + productID + ")");
+		return productDAO.getProduct(productID);
+	}
+
+	public Integer getNewID(String string) {
+		return getDAO(string).getNewID();
 	}
 }

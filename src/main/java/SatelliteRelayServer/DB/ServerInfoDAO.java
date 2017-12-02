@@ -18,6 +18,9 @@ public class ServerInfoDAO extends BaseDAO {
 				+ " USER		    		TEXT    NOT NULL," 
 				+ " PASSWORD       	TEXT    NOT NULL,"
 				+ " INTOPT1			INT     NOT NULL);"; //FTP passive
+		columnName = new String[] {"ID", "SERVERTYPE", "URL", "PORT", "USER", "PASSWORD", "INTOPT1"};
+		initData = new String[][] {	{"1", "FTP", "127.0.0.1", "21", "UserName", "", "0"},
+									{"2", "ORACLE", "127.0.0.1:1521:DBNAME","","UserName","","0"}};
 	}
 
 	public boolean UpdateFTPInfo(QueryParamsMap queryMap) {

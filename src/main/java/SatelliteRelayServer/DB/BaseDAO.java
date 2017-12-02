@@ -15,27 +15,79 @@ public class BaseDAO {
 	String TABLE_NAME = "";
 	String DDL = "";
 	Connection conn = null;
+	protected String columnName[] = null;
+	protected String initData[][] = null;
 	public BaseDAO(Connection conn) {
 		this.conn = conn;
-	}
+	} // BaseDAO
 	
 	public boolean checkNCreateTable() throws Exception {
+		String query = "SELECT name FROM sqlite_master WHERE type='table' AND name ='" + TABLE_NAME + "'";
+		boolean bRet = true;
+		JSONArray jsonArray = executeQueryNGetJSONResult(query);
+		if (jsonArray.length() == 0) {
+			bRet = executeUpdate(DDL);
+			insertInitData();
+		}
+		return bRet;
+	} // checkNCreateTable
+	
+	public String getTableName() {
+		return TABLE_NAME;
+	}
+	private void insertInitData() {
+		if (columnName == null || initData == null) {
+			return;
+		}
+		
+		StringBuilder columnsSB = new StringBuilder();
+		columnsSB.append(" (");
+		for (String aColumnName : columnName) {
+			if (aColumnName.compareTo(columnName[0]) != 0) {
+				columnsSB.append(", ");
+			}
+			columnsSB.append("\"" + aColumnName+"\"");
+		}
+		columnsSB.append(")");
+		
+		for (int i=0 ;i < initData.length ; i++) {
+			StringBuilder valuesSB = new StringBuilder();
+			StringBuilder querySB = new StringBuilder();
+			valuesSB.append(" (");
+			for (String aData : initData[i]) {
+				if (aData.compareTo(initData[i][0]) != 0) {
+					valuesSB.append(", ");
+				}
+				valuesSB.append("\"" + aData+"\"");
+			}
+			valuesSB.append(")");		
+			querySB.append("INSERT INTO ").append(TABLE_NAME).append(columnsSB).append(" VALUES ").append(valuesSB);
+			System.out.println(querySB.toString());
+			executeUpdate(querySB.toString());
+		}
+	} // insertInitData
+
+	private boolean executeUpdate(String query) {
 		Statement stmt = null;
+		boolean ret =false;
 		try {
 			stmt = conn.createStatement();
-			ResultSet rs = stmt
-					.executeQuery("SELECT name FROM sqlite_master WHERE type='table' AND name ='" + TABLE_NAME + "'");
-			if (rs.next() == false) {
-				stmt.executeUpdate(DDL);
-				conn.commit();
-			}
+			stmt.executeUpdate(query);
+			conn.commit();
+			ret = true;
 		} catch (Exception e) {
-			throw e;
+			e.printStackTrace();
+			ret = false;
 		} finally {
-			stmt.close();
+			try {
+				stmt.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
 		}
-		return true;
+		return ret;		
 	}
+
 	public int getCount() {
 		int cnt = -1;
 		Statement stmt = null;
@@ -86,10 +138,10 @@ public class BaseDAO {
 	
 	public JSONArray getListJsonArray(int listPerPage, int nowPage, boolean bASC) {
 		String query = "SELECT * FROM "+TABLE_NAME + "  ORDER BY ID " + (bASC?"ASC":"DESC") + " LIMIT 15 OFFSET " + (15 * (nowPage-1)) + ";";
-		return getQueryResultToJSON(query);
+		return executeQueryNGetJSONResult(query);
 	}
 	
-	public JSONArray getQueryResultToJSON(String query) {
+	public JSONArray executeQueryNGetJSONResult(String query) {
 		JSONArray jsonArray = null;
 		Statement stmt = null;
 		ResultSet rs = null;
@@ -125,68 +177,24 @@ public class BaseDAO {
 	}
 	
 	public void delete(int id) throws Exception {
-		Statement stmt = null;
-		try {
-			stmt = conn.createStatement();
-			stmt.executeUpdate("DELETE FROM " + TABLE_NAME + " where ID = " + id);
-			conn.commit();
-		} catch (Exception e) {
-			throw e;
-		} finally {
-			stmt.close();
-		}
-		return;		
+		executeUpdate("DELETE FROM " + TABLE_NAME + " where ID = " + id);
 	}
 
 	public boolean Insert(QueryParamsMap queryMap) {
-		Statement stmt = null;
-		boolean ret =false;
-		try {
-			stmt = conn.createStatement();
-			stmt.executeUpdate(getInsertQuery(queryMap));
-			conn.commit();
-			ret = true;
-		} catch (Exception e) {
-			e.printStackTrace();
-			ret = false;
-		} finally {
-			try {
-				stmt.close();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
-		}
-		return ret;		
-	}
-
-	protected String getInsertQuery(QueryParamsMap queryMap) {
-		System.out.println("@@@@@@");
-		return "";
+		return executeUpdate(getInsertQuery(queryMap));
 	}
 
 	public boolean Update(QueryParamsMap queryMap) {
-		Statement stmt = null;
-		boolean ret =false;
-		try {
-			stmt = conn.createStatement();
-			stmt.executeUpdate(getUpdateQuery(queryMap));
-			conn.commit();
-			ret = true;
-		} catch (Exception e) {
-			e.printStackTrace();
-			ret = false;
-		} finally {
-			try {
-				stmt.close();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
-		}
-		return ret;	
+		return executeUpdate(getUpdateQuery(queryMap));
+	}
+
+	protected String getInsertQuery(QueryParamsMap queryMap) {
+		System.out.println("@@@@@@ Error this is BaseDAO.getInsertQuery()");
+		return "";
 	}
 
 	protected String getUpdateQuery(QueryParamsMap queryMap) {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("@@@@@@ Error this is BaseDAO.getUpdateQuery()");
+		return "";
 	}
 }

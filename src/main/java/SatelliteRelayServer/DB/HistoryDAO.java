@@ -6,9 +6,13 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.time.LocalDateTime;
 
+import org.json.JSONArray;
+
 public class HistoryDAO extends BaseDAO{
-	public HistoryDAO(Connection conn) {
+	String PRODUCT_TABLE_NAME;
+	public HistoryDAO(Connection conn, String ProductTBName) {
 		super(conn);
+		PRODUCT_TABLE_NAME = ProductTBName;
 		TABLE_NAME = "TB_RELAY_HISTORY";
 		DDL = "CREATE TABLE TB_RELAY_HISTORY " 
 				+ "(ID INT PRIMARY KEY     	NOT NULL, "
@@ -19,11 +23,14 @@ public class HistoryDAO extends BaseDAO{
 				+ " FILE_COUNT		INTEGER, "
 				+ " LOGS           	TEXT);";
 	}
-
-	public int createHistoryLog(int productID) {
+	public JSONArray getListJsonArray(int listPerPage, int nowPage, boolean bASC) {
+		String query = "SELECT A.*, B.NAME as PRODUCT_NAME FROM "+TABLE_NAME + " as A,"+PRODUCT_TABLE_NAME+" as B WHERE A.PRODUCT_ID=B.ID ORDER BY ID " + (bASC?"ASC":"DESC") + " LIMIT 15 OFFSET " + (15 * (nowPage-1)) + ";";
+		return executeQueryNGetJSONResult(query);
+	}
+	public synchronized int createHistoryLog(int productID) {
 		int id = getNewID();
 		String state = "RUNNING";
-		String StartDateTime = LocalDateTime.now().toString();
+		String StartDateTime = LocalDateTime.now().toString().replace('T', ' ');
 		
 		Statement stmt = null;
 		try {
@@ -47,7 +54,7 @@ public class HistoryDAO extends BaseDAO{
 		return id;
 	}
 
-	public void addHistoryLog(int historyID, String log) {
+	public synchronized void addHistoryLog(int historyID, String log) {
 		String oldLog = getHistoryLog(historyID);
 		String newLog = oldLog + log +  "\n" ; 
 		Statement stmt = null;
@@ -73,7 +80,7 @@ public class HistoryDAO extends BaseDAO{
 		}
 	}
 
-	public void runningToFail() {
+	public void setStatusRunningToFail() {
 		Statement stmt = null;
 		try {
 			// SQL문을 실행한다.
