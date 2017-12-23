@@ -57,6 +57,9 @@ public class ProductInfoAppendix {
 	}
 
 	private String getFilePath(File afile, TARGETPATH_TYPE targetPath_type, String oriTargetPath) {
+		if (oriTargetPath.substring(oriTargetPath.length() - 1).compareTo("/") != 0) {
+			oriTargetPath += "/";
+		}
 		String fileName = afile.getName();
 		String YYYY = fileName.substring(0,4).trim();
 		String MM = fileName.substring(4,6).trim();

@@ -47,6 +47,7 @@ public class TargetDB {
 			String query = "SELECT count(*) as cnt FROM TB_IDENTITY_LIST WHERE IDENTIFIER='" + filename + "'";
 			logger.info(" Execute Query : " + query);
 			rs = stmt.executeQuery(query);
+			logger.info("[check Exist FileName in Target DB(TB_IDENTITY_LIST)] " + query );
 
 			if (rs.next() && rs.getInt("cnt") > 0) {
 				ret = true;
@@ -74,7 +75,7 @@ public class TargetDB {
 			String query = productInfo.getDBInsertQuery(afile);
 			logger.info(" Execute Query : " + query);
 			rs = stmt.executeQuery(query);
-
+			logger.info("[Insert Target DB(TB_IDENTITY_LIST)] " + query );
 			if (rs.next()) {
 				logger.info(" DBINSERT !!!");
 			}
@@ -100,6 +101,7 @@ public class TargetDB {
 			logger.info(" Execute Query : " + query);
 			
 			rs = stmt.executeQuery(query);
+			logger.info("[get New SEQ in Target DB(TB_IDENTITY_LIST)] " + query );
 
 			if (rs.next()) {
 				seq = rs.getInt("SEQ") + 1;
@@ -128,6 +130,7 @@ public class TargetDB {
 			// SQL문을 실행한다.
 			String query = productInfo.getDBUpdateQuery(afile);
 			logger.info(" Execute Query : " + query);
+			logger.info("[Update Target DB(TB_IDENTITY_LIST)] " + query );
 			
 			rs = stmt.executeQuery(query);
 

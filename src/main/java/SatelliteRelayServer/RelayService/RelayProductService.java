@@ -117,11 +117,11 @@ public class RelayProductService extends TimerTask {
 		}
 		if (bResult == true) {
 			historySaver.add(historyID, "[RESULT] Successed ");
-			historySaver.setStatus(historyID, "SUCCESS");
+			historySaver.setStatus(historyID, "SUCCESSED");
 			logger.info("\t [Schedule Job] HistoryID : " + historyID + " - Successed!");
 		} else  {
 			historySaver.add(historyID, "[RESULT] Failed ");
-			historySaver.setStatus(historyID, "FAIL");
+			historySaver.setStatus(historyID, "FAILED");
 			logger.info("\t [Schedule Job] HistoryID : " + historyID + " - Failed!");
 		}
 		
@@ -190,7 +190,8 @@ public class RelayProductService extends TimerTask {
 					}
 					break;
 				case REGEXP:
-					if (aFile.getName().matches(regex) == true) {
+					String fileName = aFile.getName();
+					if (fileName.matches(regex) == true) {
 						matchFile.add(aFile);
 					}
 					break;
@@ -203,23 +204,23 @@ public class RelayProductService extends TimerTask {
 	
 	private boolean task2FTPTransmition(File afile) {
 		logger.info("\t [Schedule Job (" + historyID + ")] PID : " + productInfo.productID + "-" + productInfo.productName + " - Task2-FTPTransmition START -" + afile.getName());
-		historySaver.add(historyID, "[STEP2] START : FTP Transmition -" + afile.getName());
+		historySaver.add(historyID, "[STEP2] START : FTP Transmition -" + afile.getName() + " - " + productInfo.getFTPTargetPath());
 		try {
 			productInfo.setAppendixColumns(afile);
 			if (targetFTP.sendFile(afile, productInfo.getFTPTargetPath()) == false) {
-				historySaver.add(historyID, "[STEP2] File : " + afile.getName() + " send Finished");
+				historySaver.add(historyID, "[STEP2] File : " + afile.getName() + " send Finished - " + productInfo.getFTPTargetPath());
 				return false;
 			}
-			historySaver.add(historyID, "[STEP2] File : " + afile.getName() + " send finished");
+			historySaver.add(historyID, "[STEP2] File : " + afile.getName() + " send Finished - " + productInfo.getFTPTargetPath());
 		} catch (Exception e) {
 			e.printStackTrace();
 			logger.error(e.getMessage());
-			historySaver.add(historyID, "[STEP2] File : " + afile.getName() + " send Error! : " + e.getMessage() );
+			historySaver.add(historyID, "[STEP2] File : " + afile.getName() + " - " + productInfo.getFTPTargetPath() + " send Error! : " + e.getMessage() );
 			return false;
 		}
 		
-		historySaver.add(historyID, "[STEP2] END : FTP Transmition - " + afile.getName());
-		logger.info("\t [Schedule Job (" + historyID + ")] PID : " + productInfo.productID + "-" + productInfo.productName + " - Task2-FTPTransmition END -" + afile.getName());
+		historySaver.add(historyID, "[STEP2] END : FTP Transmition - " + afile.getName() + " - " + productInfo.getFTPTargetPath());
+		logger.info("\t [Schedule Job (" + historyID + ")] PID : " + productInfo.productID + "-" + productInfo.productName + " - Task2-FTPTransmition END -" + afile.getName() + " - " + productInfo.getFTPTargetPath());
 		return true;
 	}
 

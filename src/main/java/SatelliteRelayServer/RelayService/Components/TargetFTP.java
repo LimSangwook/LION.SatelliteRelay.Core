@@ -10,7 +10,10 @@ public class TargetFTP {
 	
 	public boolean init(SatelliteRelayDBManager serviceDB) {
 		if (serviceDB.getIsSFTP() == true) {
-			
+			ftp = new FTPImpl(serviceDB.getFTPServer(), serviceDB.getFTPPort(), serviceDB.getIsSFTP());
+			if (ftp.connect() && ftp.login(serviceDB.getFTPID(), serviceDB.getFTPPassword())) { 
+				return true;
+			}
 		} else {
 			ftp = new FTPImpl(serviceDB.getFTPServer(), serviceDB.getFTPPort(), serviceDB.getIsSFTP());
 			if (ftp.connect() && ftp.login(serviceDB.getFTPID(), serviceDB.getFTPPassword())) { 
@@ -31,6 +34,7 @@ public class TargetFTP {
 	}
 
 	public void close() throws IOException {
-		ftp.close();
+		if (ftp != null)
+			ftp.close();
 	}
 }

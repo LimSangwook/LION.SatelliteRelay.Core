@@ -5,10 +5,13 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
+import org.apache.log4j.Logger;
 import org.json.JSONArray;
 
 public class HistoryDAO extends BaseDAO{
+	static Logger logger = Logger.getLogger(HistoryDAO.class);
 	String PRODUCT_TABLE_NAME;
 	public HistoryDAO(Connection conn, String ProductTBName) {
 		super(conn);
@@ -30,8 +33,11 @@ public class HistoryDAO extends BaseDAO{
 	public synchronized int createHistoryLog(int productID) {
 		int id = getNewID();
 		String state = "RUNNING";
-		String StartDateTime = LocalDateTime.now().toString().replace('T', ' ');
 		
+		LocalDateTime now = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        String StartDateTime = now.format(formatter);
+        
 		Statement stmt = null;
 		try {
 			// SQL문을 실행한다.
@@ -41,6 +47,8 @@ public class HistoryDAO extends BaseDAO{
 						+ "VALUES " 
 						+ "("+id+",'"+productID+"','"+state+"','"+StartDateTime+"','','')";
 			stmt.execute(query);
+			logger.info("[cteate History Log] " + query );
+
 			conn.commit();
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -65,6 +73,8 @@ public class HistoryDAO extends BaseDAO{
 					+ "SET logs = '"+ newLog + "' "
 					+ "WHERE ID="+historyID;
 			boolean ret = stmt.execute(query);
+			logger.info("[add History Log] " + query );
+
 			conn.commit();
 			if (ret == false) {
 				return;
@@ -89,6 +99,8 @@ public class HistoryDAO extends BaseDAO{
 					+ "SET STATE = 'FAIL' "
 					+ "WHERE STATE = 'RUNNING' ";
 			boolean ret = stmt.execute(query);
+			logger.info("[set Status Running -> Fail] " + query );
+
 			conn.commit();
 			if (ret == false) {
 				return;
@@ -109,7 +121,10 @@ public class HistoryDAO extends BaseDAO{
 		ResultSet rs = null;
 		try {
 			stmt = conn.createStatement();
-			rs = stmt.executeQuery("SELECT LOGS FROM TB_RELAY_HISTORY WHERE ID =" + historyID );
+			String query = "SELECT LOGS FROM TB_RELAY_HISTORY WHERE ID =" + historyID;
+			rs = stmt.executeQuery(query );
+			logger.info("[get History Log] " + query );
+
 			while (rs.next()) {
 				return rs.getString("LOGS");
 			}
@@ -134,6 +149,8 @@ public class HistoryDAO extends BaseDAO{
 					+ "SET FILENAME = '"+ fileNames + "' "
 					+ "WHERE ID="+historyID;
 			boolean ret = stmt.execute(query);
+			logger.info("[set History File] " + query );
+
 			conn.commit();
 			if (ret == false) {
 				return;
@@ -158,6 +175,8 @@ public class HistoryDAO extends BaseDAO{
 					+ "SET STATE = '"+ string + "' "
 					+ "WHERE ID="+historyID;
 			boolean ret = stmt.execute(query);
+			logger.info("[set History Status] " + query );
+
 			conn.commit();
 			if (ret == false) {
 				return;
@@ -182,6 +201,8 @@ public class HistoryDAO extends BaseDAO{
 					+ "SET FILE_COUNT = "+ count + " "
 					+ "WHERE ID="+historyID;
 			boolean ret = stmt.execute(query);
+			logger.info("[set History File Count] " + query );
+
 			conn.commit();
 			if (ret == false) {
 				return;

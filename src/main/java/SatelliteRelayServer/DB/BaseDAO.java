@@ -6,12 +6,15 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import SatelliteRelayServer.SatelliteRelayServer;
 import spark.QueryParamsMap;
 
 public class BaseDAO {
+	static Logger logger = Logger.getLogger(BaseDAO.class);
 	String TABLE_NAME = "";
 	String DDL = "";
 	Connection conn = null;
@@ -27,6 +30,7 @@ public class BaseDAO {
 		JSONArray jsonArray = executeQueryNGetJSONResult(query);
 		if (jsonArray.length() == 0) {
 			bRet = executeUpdate(DDL);
+			logger.info("[Check and Create Table] " + DDL );
 			insertInitData();
 		}
 		return bRet;
@@ -73,6 +77,8 @@ public class BaseDAO {
 		try {
 			stmt = conn.createStatement();
 			stmt.executeUpdate(query);
+			logger.info("[Execute Update] " + query );
+
 			conn.commit();
 			ret = true;
 		} catch (Exception e) {
@@ -97,7 +103,7 @@ public class BaseDAO {
 			stmt = conn.createStatement();
 			String query = "SELECT COUNT(ID) as COUNT FROM "+TABLE_NAME;
 			rs = stmt.executeQuery(query);
-
+			logger.info("[get Count] " + query );
 			if (rs.next()) {
 				cnt = rs.getInt("COUNT");
 			}
@@ -121,6 +127,8 @@ public class BaseDAO {
 			stmt = conn.createStatement();
 			String query = "SELECT MAX(ID) as id FROM "+TABLE_NAME;
 			rs = stmt.executeQuery(query);
+			logger.info("[get New ID] " + query );
+
 
 			if (rs.next()) {
 				id = rs.getInt("id") + 1;
@@ -149,6 +157,8 @@ public class BaseDAO {
 			// SQL문을 실행한다.
 			stmt = conn.createStatement();
 			rs = stmt.executeQuery(query);
+			logger.info("[execute Query and get JSON] " + query );
+			
 			jsonArray = ConvertRS2JSON(rs);
 		} catch (Exception e) {
 			e.printStackTrace();

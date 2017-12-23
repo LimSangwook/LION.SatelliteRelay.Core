@@ -7,6 +7,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.json.JSONArray;
 
 import SatelliteRelayServer.Models.ProductInfoAppendix;
@@ -16,6 +17,7 @@ import SatelliteRelayServer.Models.ProductInfo.SCHEDULE_TYPE;
 import spark.QueryParamsMap;
 
 public class ProductDAO extends BaseDAO {
+	static Logger logger = Logger.getLogger(ProductDAO.class);
 	String TABLE_SATELLITE_NAME;
 
 	public ProductDAO(Connection conn, String satelliteTBName) {
@@ -66,7 +68,10 @@ public class ProductDAO extends BaseDAO {
 		ResultSet rs = null;
 		try {
 			stmt = conn.createStatement();
-			rs = stmt.executeQuery("SELECT A.*, B.NAME as SATE_NAME FROM TB_PRODUCT as A, TB_SATELLITE as B WHERE A.SATELLITE_ID == B.ID;");
+			String query = "SELECT A.*, B.NAME as SATE_NAME FROM TB_PRODUCT as A, TB_SATELLITE as B WHERE A.SATELLITE_ID == B.ID;";
+			rs = stmt.executeQuery(query);
+			logger.info("[get Products] " + query );
+
 			while (rs.next()) {
 				ProductInfoAppendix appendixColumns = getProductAppendixColumns(rs);
 				ProductInfo info = getRelayProductInfo(rs, appendixColumns);
@@ -226,7 +231,10 @@ public class ProductDAO extends BaseDAO {
 		ResultSet rs = null;
 		try {
 			stmt = conn.createStatement();
-			rs = stmt.executeQuery("SELECT A.*, B.NAME as SATE_NAME FROM TB_PRODUCT as A, TB_SATELLITE as B WHERE A.SATELLITE_ID == B.ID AND A.ID = "+productID+" ;");
+			String query = "SELECT A.*, B.NAME as SATE_NAME FROM TB_PRODUCT as A, TB_SATELLITE as B WHERE A.SATELLITE_ID == B.ID AND A.ID = "+productID+" ;";
+			rs = stmt.executeQuery(query);
+			logger.info("[get Product] " + query );
+
 			while (rs.next()) {
 				ProductInfoAppendix appendixColumns = getProductAppendixColumns(rs);
 				ProductInfo info = getRelayProductInfo(rs, appendixColumns);

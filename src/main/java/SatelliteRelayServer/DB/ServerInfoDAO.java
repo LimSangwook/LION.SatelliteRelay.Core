@@ -4,9 +4,12 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.apache.log4j.Logger;
+
 import spark.QueryParamsMap;
 
 public class ServerInfoDAO extends BaseDAO {
+	static Logger logger = Logger.getLogger(ServerInfoDAO.class);
 	public ServerInfoDAO(Connection conn) {
 		super(conn);
 		TABLE_NAME = "TB_SERVER_INFO";
@@ -28,7 +31,10 @@ public class ServerInfoDAO extends BaseDAO {
 		boolean ret =false;
 		try {
 			stmt = conn.createStatement();
-			stmt.executeUpdate(getUpdateFTPQuery(queryMap));
+			String query = getUpdateFTPQuery(queryMap);
+			stmt.executeUpdate(query);
+			logger.info("[update FTP Information] " + query );
+
 			conn.commit();
 			ret = true;
 		} catch (Exception e) {
@@ -64,7 +70,10 @@ public class ServerInfoDAO extends BaseDAO {
 		boolean ret =false;
 		try {
 			stmt = conn.createStatement();
-			stmt.executeUpdate(getUpdateDBQuery(queryMap));
+			String query = getUpdateDBQuery(queryMap);
+			stmt.executeUpdate(query);
+			logger.info("[update DB Information] " + query );
+
 			conn.commit();
 			ret = true;
 		} catch (Exception e) {

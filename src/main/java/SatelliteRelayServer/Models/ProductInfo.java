@@ -206,6 +206,7 @@ public class ProductInfo {
 				+ ",FILE_STATUS='" + appendixColumns.FILE_STATUS + "'"
 				+ ",FILE_PATH='" + appendixColumns.FILE_PATH + "'"
 				+ ",REG_DATE='" + appendixColumns.REG_DATE + "'"
+//				+ ",REG_DATE=TO_CHAR(SYSDATE, 'MM-DD-YYYY HH24:MI:SS')"
 				+ ",MOUNT_POINT='" + appendixColumns.MOUNT_POINT + "'"
 				+ ",DATA_OPEN='" + appendixColumns.DATA_OPEN + "'"
 				+ ",SURVEY_TIME='" + appendixColumns.SURVEY_TIME + "'"

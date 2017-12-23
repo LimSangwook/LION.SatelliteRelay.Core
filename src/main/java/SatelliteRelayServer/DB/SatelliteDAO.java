@@ -5,10 +5,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.apache.log4j.Logger;
+
 import spark.QueryParamsMap;
 
 public class SatelliteDAO extends BaseDAO {
-
+	static Logger logger = Logger.getLogger(SatelliteDAO.class);
 	protected String getInsertQuery(QueryParamsMap map) {
 		StringBuilder sb = new StringBuilder();
 		StringBuilder columns = new StringBuilder();
@@ -46,7 +48,9 @@ public class SatelliteDAO extends BaseDAO {
 		ResultSet rs = null;
 		try {
 			stmt = conn.createStatement();
-			rs = stmt.executeQuery("SELECT * FROM TB_SATELLITE WHERE ID=" + satelliteID + ";");
+			String query = "SELECT * FROM TB_SATELLITE WHERE ID=" + satelliteID + ";";
+			rs = stmt.executeQuery(query);
+			logger.info("[get Satellite Info] " + query );
 			while (rs.next()) {
 				String name = rs.getString("NAME");
 				satelliteInfo = new SatelliteDTO();
