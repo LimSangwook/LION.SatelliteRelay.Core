@@ -187,7 +187,6 @@ public class ProductInfo {
 
 	public String getDBUpdateQuery(File afile) {
 		setAppendixColumns(afile);
-		
 		String query = "UPDATE TB_IDENTITY_LIST "
 				+ " SET SURVEY_DATE='"+appendixColumns.SURVEY_DATE+"'"
 				+ ",COORD_UL='" + appendixColumns.COORD_UL + "'"
@@ -205,8 +204,8 @@ public class ProductInfo {
 				+ ",FILE_SIZE='" + appendixColumns.FILE_SIZE + "'"
 				+ ",FILE_STATUS='" + appendixColumns.FILE_STATUS + "'"
 				+ ",FILE_PATH='" + appendixColumns.FILE_PATH + "'"
-				+ ",REG_DATE='" + appendixColumns.REG_DATE + "'"
-//				+ ",REG_DATE=TO_CHAR(SYSDATE, 'MM-DD-YYYY HH24:MI:SS')"
+//				+ ",REG_DATE='" + appendixColumns.REG_DATE + "'"
+				+ ",REG_DATE=TO_CHAR(SYSDATE, 'YYYYMMDD')"
 				+ ",MOUNT_POINT='" + appendixColumns.MOUNT_POINT + "'"
 				+ ",DATA_OPEN='" + appendixColumns.DATA_OPEN + "'"
 				+ ",SURVEY_TIME='" + appendixColumns.SURVEY_TIME + "'"
