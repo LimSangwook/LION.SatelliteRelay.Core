@@ -10,7 +10,6 @@ import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import SatelliteRelayServer.SatelliteRelayServer;
 import spark.QueryParamsMap;
 
 public class BaseDAO {

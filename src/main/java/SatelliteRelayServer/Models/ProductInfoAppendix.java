@@ -1,6 +1,10 @@
 package SatelliteRelayServer.Models;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import SatelliteRelayServer.Models.ProductInfo.TARGETPATH_TYPE;
 
@@ -27,6 +31,10 @@ public class ProductInfoAppendix {
 	public String	MOUNT_POINT	= "";
 	public String	DATA_OPEN	= "";
 	public String	SURVEY_TIME	= "";
+	public int		SURVEY_DATE_START_INDEX = -1;
+	public int		SURVEY_DATE_END_INDEX = -1;
+	public int		SURVEY_TIME_START_INDEX = -1;
+	public int		SURVEY_TIME_END_INDEX = -1;
 	
 	public boolean  setFromFile(File afile, TARGETPATH_TYPE targetPath_type, String oriTargetPath) {
 		if (afile == null) {
@@ -40,7 +48,7 @@ public class ProductInfoAppendix {
         }
 
 		IDENTIFIER = fileName;	// 2014.0127.0331.aqua-1.modis_Rrs_551.KOR.tif	
-		SURVEY_DATE = getSurveryDate(afile);	// From File. ex) 20140127
+		SURVEY_DATE = getSurveyDate(afile);	// From File. ex) 20140127
 		DATA_FORMAT = ext;		// From File. ex) tif
 		FILE_SIZE = Double.toString(afile.length());		// 9002213	
 		FILE_PATH = getFilePath(afile, targetPath_type, oriTargetPath);		// /MODIS/2014/01/	
@@ -77,7 +85,49 @@ public class ProductInfoAppendix {
 		}
 	}
 
-	private String getSurveryDate(File afile) {
-		return afile.getName().substring(0, 8);
+	private String getSurveyDate(File afile) {
+		String Date = "";
+		String Time = "";
+		String surveyDateTime = "unknown";
+		// SURVEY_DATE_START_INDEX, SURVEY_DATE_END_INDEX, SURVEY_TIME_START_INDEX, SURVEY_TIME_END_INDEX : UI Input값으로 1Base로 시작함.
+		if (SURVEY_DATE_START_INDEX > 0 && SURVEY_DATE_END_INDEX > 0 ) {
+			Date = afile.getName().substring(SURVEY_DATE_START_INDEX - 1 , SURVEY_DATE_END_INDEX);
+		}
+		if (SURVEY_TIME_START_INDEX > 0 && SURVEY_TIME_END_INDEX > 0 ) {
+			Time += " " + afile.getName().substring(SURVEY_TIME_START_INDEX - 1 , SURVEY_TIME_END_INDEX);
+		}
+		
+		if (Date.length() > 0 ) {
+			surveyDateTime = Date;
+			if (Time.length() > 0 ) {
+				surveyDateTime += " " + Time;
+			}
+		} else { // 지정하지 않았을 경우 자동으로 차아다.
+			List<String> dateList = extractDate(afile.getName());
+			if (dateList.size() > 0) surveyDateTime = dateList.get(0);
+		}
+		
+		return surveyDateTime;
 	}
+	
+    public List<String> extractDate(String str) {
+        List<String> list = new ArrayList<String>();
+        Matcher matcher ;
+        
+        if (str.isEmpty()) {
+            matcher = null;
+        } else {
+            String patternStr = "(19|20)\\d{2}[- /.]*(0[1-9]|1[012])[- /.]*(0[1-9]|[12][0-9]|3[01])"; // 날자를 패턴으로 지정
+            
+            int flags = Pattern.MULTILINE | Pattern.CASE_INSENSITIVE;
+            Pattern pattern = Pattern.compile(patternStr, flags);
+            matcher = pattern.matcher(str);
+
+            while (matcher.find()) {
+                list.add(matcher.group());
+            }
+        }
+
+        return list;
+    }
 };

@@ -51,6 +51,10 @@ public class ProductDAO extends BaseDAO {
 				+ "    `FILE_STATUS`	TEXT, "
 				+ "    `MOUNT_POINT`	TEXT, "
 				+ "    `DATA_OPEN`	TEXT, "
+				+ "    'SURVEY_DATE_START_INDEX`	INTEGER DEFAULT -1, "
+				+ "    `SURVEY_DATE_END_INDEX`	INTEGER DEFAULT -1, "
+				+ "    `SURVEY_TIME_START_INDEX`	INTEGER DEFAULT -1, "
+				+ "    `SURVEY_TIME_END_INDEX`	INTEGER DEFAULT -1, "
 				+ "    PRIMARY KEY(`ID`) "
 				+ "  );";
 	}
@@ -117,7 +121,11 @@ public class ProductDAO extends BaseDAO {
 			.append(",\"").append(map.value("DATA_AN_GBN")).append("\"")
 			.append(",\"").append(map.value("FILE_STATUS")).append("\"")
 			.append(",\"").append(map.value("MOUNT_POINT")).append("\"")
-			.append(",\"").append(map.value("DATA_OPEN")).append("\")");
+			.append(",\"").append(map.value("DATA_OPEN")).append("\"")
+			.append(",").append(map.value("SURVEY_DATE_START_INDEX"))
+			.append(",").append(map.value("SURVEY_DATE_END_INDEX"))
+			.append(",").append(map.value("SURVEY_TIME_START_INDEX"))
+			.append(",").append(map.value("SURVEY_TIME_END_INDEX")).append(")");
 		sb.append("INSERT INTO ").append(TABLE_NAME).append(" VALUES ").append(values);
 		return sb.toString();
 	}
@@ -150,7 +158,11 @@ public class ProductDAO extends BaseDAO {
 			.append(", DATA_AN_GBN=\"").append(map.value("DATA_AN_GBN")).append("\"")
 			.append(", FILE_STATUS=\"").append(map.value("FILE_STATUS")).append("\"")
 			.append(", MOUNT_POINT=\"").append(map.value("MOUNT_POINT")).append("\"")
-			.append(", DATA_OPEN=\"").append(map.value("DATA_OPEN")).append("\"");
+			.append(", DATA_OPEN=\"").append(map.value("DATA_OPEN")).append("\"")
+			.append(", SURVEY_DATE_START_INDEX=").append(map.value("SURVEY_DATE_START_INDEX"))
+			.append(", SURVEY_DATE_END_INDEX=").append(map.value("SURVEY_DATE_END_INDEX"))
+			.append(", SURVEY_TIME_START_INDEX=").append(map.value("SURVEY_TIME_START_INDEX"))
+			.append(", SURVEY_TIME_END_INDEX=").append(map.value("SURVEY_TIME_END_INDEX"))	;	
 
 		sb.append(" WHERE ID = ").append(map.value("ID")).append(";");
 		return sb.toString();
@@ -221,6 +233,12 @@ public class ProductDAO extends BaseDAO {
 		tbColumns.REG_DATE = rs.getString("REG_DATE");
 		tbColumns.MOUNT_POINT = rs.getString("MOUNT_POINT");
 		tbColumns.DATA_OPEN = rs.getString("DATA_OPEN");
+		tbColumns.SURVEY_DATE_START_INDEX = rs.getInt("SURVEY_DATE_START_INDEX");
+		tbColumns.SURVEY_DATE_END_INDEX = rs.getInt("SURVEY_DATE_END_INDEX");
+		tbColumns.SURVEY_TIME_START_INDEX = rs.getInt("SURVEY_TIME_START_INDEX");
+		tbColumns.SURVEY_TIME_END_INDEX = rs.getInt("SURVEY_TIME_END_INDEX");
+		
+		
 		tbColumns.SURVEY_TIME = null;
 		tbColumns.SATELLITE = rs.getString("SATE_NAME");
 		return tbColumns;
