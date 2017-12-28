@@ -57,11 +57,13 @@ public class ProductInfoAppendix {
 	}
 	
 	private String getSurveyTime(File afile) {
-		String[] tokens = afile.getName().split(".");
-		if (tokens.length > 1) {
-			return tokens[1];
+		String Time = "";
+		// SURVEY_TIME_START_INDEX, SURVEY_TIME_END_INDEX : UI Input값으로 1Base로 시작함.
+		if (SURVEY_TIME_START_INDEX > 0 && SURVEY_TIME_END_INDEX > 0 ) {
+			Time += " " + afile.getName().substring(SURVEY_TIME_START_INDEX - 1 , SURVEY_TIME_END_INDEX);
 		}
-		return "";
+		
+		return Time;
 	}
 
 	private String getFilePath(File afile, TARGETPATH_TYPE targetPath_type, String oriTargetPath) {
@@ -87,27 +89,17 @@ public class ProductInfoAppendix {
 
 	private String getSurveyDate(File afile) {
 		String Date = "";
-		String Time = "";
-		String surveyDateTime = "unknown";
-		// SURVEY_DATE_START_INDEX, SURVEY_DATE_END_INDEX, SURVEY_TIME_START_INDEX, SURVEY_TIME_END_INDEX : UI Input값으로 1Base로 시작함.
+		// SURVEY_DATE_START_INDEX, SURVEY_DATE_END_INDEX : UI Input값으로 1Base로 시작함.
 		if (SURVEY_DATE_START_INDEX > 0 && SURVEY_DATE_END_INDEX > 0 ) {
 			Date = afile.getName().substring(SURVEY_DATE_START_INDEX - 1 , SURVEY_DATE_END_INDEX);
 		}
-		if (SURVEY_TIME_START_INDEX > 0 && SURVEY_TIME_END_INDEX > 0 ) {
-			Time += " " + afile.getName().substring(SURVEY_TIME_START_INDEX - 1 , SURVEY_TIME_END_INDEX);
-		}
 		
-		if (Date.length() > 0 ) {
-			surveyDateTime = Date;
-			if (Time.length() > 0 ) {
-				surveyDateTime += " " + Time;
-			}
-		} else { // 지정하지 않았을 경우 자동으로 차아다.
-			List<String> dateList = extractDate(afile.getName());
-			if (dateList.size() > 0) surveyDateTime = dateList.get(0);
-		}
+//		if (Date.length() == 0 ) { // 지정하지 않았을 경우 자동으로 차아다.
+//			List<String> dateList = extractDate(afile.getName());
+//			if (dateList.size() > 0) Date = dateList.get(0);
+//		}
 		
-		return surveyDateTime;
+		return Date;
 	}
 	
     public List<String> extractDate(String str) {
