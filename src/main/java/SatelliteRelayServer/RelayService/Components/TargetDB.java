@@ -10,6 +10,7 @@ import java.sql.Statement;
 import org.apache.log4j.Logger;
 
 import SatelliteRelayServer.SatelliteRelayDBManager;
+import SatelliteRelayServer.DB.SatelliteDTO;
 import SatelliteRelayServer.Models.ProductInfo;
 
 public class TargetDB {
@@ -17,8 +18,10 @@ public class TargetDB {
 	Connection conn = null;
 	Statement stmt = null;
 	ResultSet rs = null;
-
+	SatelliteRelayDBManager serviceDB = null;
+	
 	public boolean init(SatelliteRelayDBManager serviceDB) {
+		this.serviceDB = serviceDB;
 		try {
 			// 드라이버를 로딩한다.
 			Class.forName("oracle.jdbc.driver.OracleDriver");
@@ -39,6 +42,7 @@ public class TargetDB {
 		}
 		return true;
 	}
+	
 	public boolean existFileNameInDB(String filename) {
 		boolean ret = false;
 		try {
@@ -69,10 +73,11 @@ public class TargetDB {
 		try {
 			// Statement를 가져온다.
 			stmt = conn.createStatement();
-
+			SatelliteDTO satelliteInfo = serviceDB.getSatelliteInfo(productInfo.satelliteID);
+			
 			// SQL문을 실행한다.
 			productInfo.appendixColumns.SEQ = getNewSEQ(stmt);
-			String query = productInfo.getDBInsertQuery(afile);
+			String query = productInfo.getDBInsertQuery(afile, satelliteInfo);
 			logger.info(" Execute Query : " + query);
 			rs = stmt.executeQuery(query);
 			logger.info("[Insert Target DB(TB_IDENTITY_LIST)] " + query );
@@ -128,7 +133,8 @@ public class TargetDB {
 			stmt = conn.createStatement();
 
 			// SQL문을 실행한다.
-			String query = productInfo.getDBUpdateQuery(afile);
+			SatelliteDTO satelliteInfo = serviceDB.getSatelliteInfo(productInfo.satelliteID);
+			String query = productInfo.getDBUpdateQuery(afile, satelliteInfo);
 			logger.info(" Execute Query : " + query);
 			logger.info("[Update Target DB(TB_IDENTITY_LIST)] " + query );
 			

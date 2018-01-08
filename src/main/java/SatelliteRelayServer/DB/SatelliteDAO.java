@@ -53,9 +53,11 @@ public class SatelliteDAO extends BaseDAO {
 			logger.info("[get Satellite Info] " + query );
 			while (rs.next()) {
 				String name = rs.getString("NAME");
+				String resolution = rs.getString("RESOLUTION");
 				satelliteInfo = new SatelliteDTO();
 				satelliteInfo.setID(satelliteID);
 				satelliteInfo.setName(name);
+				satelliteInfo.setResolution(resolution);
 			}
 		} catch (Exception e) {
 			System.err.println(e.getClass().getName() + ": " + e.getMessage());

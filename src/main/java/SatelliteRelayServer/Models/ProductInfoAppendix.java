@@ -51,8 +51,14 @@ public class ProductInfoAppendix {
 		SURVEY_DATE = getSurveyDate(afile);	// From File. ex) 20140127
 		DATA_FORMAT = ext;		// From File. ex) tif
 		FILE_SIZE = Double.toString(afile.length());		// 9002213	
-		FILE_PATH = getFilePath(afile, targetPath_type, oriTargetPath);		// /MODIS/2014/01/	
-		SURVEY_TIME = getSurveyTime(afile);	// 0331
+		FILE_PATH = getFilePath(afile, targetPath_type, oriTargetPath);		// /MODIS/2014/01/
+		
+		if (DATA_TYPE.compareTo("S") == 0 || DATA_TYPE.compareTo("SG") == 1) { // 수신영상일 경우에만 시간을 넣는다. S:수신영상(기하보정X) SG:수신영상
+			SURVEY_TIME = getSurveyTime(afile);	// 0331
+		} else {
+			SURVEY_TIME = "";
+		}
+
 		return true;
 	}
 	

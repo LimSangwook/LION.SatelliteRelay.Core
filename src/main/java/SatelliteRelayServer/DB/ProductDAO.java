@@ -237,8 +237,6 @@ public class ProductDAO extends BaseDAO {
 		tbColumns.SURVEY_DATE_END_INDEX = rs.getInt("SURVEY_DATE_END_INDEX");
 		tbColumns.SURVEY_TIME_START_INDEX = rs.getInt("SURVEY_TIME_START_INDEX");
 		tbColumns.SURVEY_TIME_END_INDEX = rs.getInt("SURVEY_TIME_END_INDEX");
-		
-		
 		tbColumns.SURVEY_TIME = null;
 		tbColumns.SATELLITE = rs.getString("SATE_NAME");
 		return tbColumns;

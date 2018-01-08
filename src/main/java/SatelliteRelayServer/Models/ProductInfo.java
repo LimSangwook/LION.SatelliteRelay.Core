@@ -161,7 +161,7 @@ public class ProductInfo {
 		appendixColumns.setFromFile(afile, targetPath_type, this.oriTargetPath);
 	}
 
-	public String getDBInsertQuery(File afile) {
+	public String getDBInsertQuery(File afile, SatelliteDTO satelliteInfo) {
 		setAppendixColumns(afile);
 	
 		String query = "INSERT INTO TB_IDENTITY_LIST "
@@ -171,8 +171,8 @@ public class ProductInfo {
 				+ "VALUES "
 				+ "('"+appendixColumns.SEQ+"','"+appendixColumns.IDENTIFIER+"','"+appendixColumns.SURVEY_DATE+"','"+appendixColumns.COORD_UL+"','"+appendixColumns.COORD_LR+"','"+
 				appendixColumns.PIXEL_ROW+"','"+appendixColumns.PIXEL_COL+"','"+appendixColumns.DATA_TYPE+"','"+appendixColumns.DATA_FORMAT+"','"+appendixColumns.PROJECTION+"','"+
-				appendixColumns.QUICK_LOOK+"','"+appendixColumns.DATA_GBN+"','"+appendixColumns.DATA_AN_GBN+"','"+appendixColumns.SATELLITE+"','"+appendixColumns.RESOLUTION+"',"+
-				appendixColumns.FILE_SIZE+",'"+appendixColumns.FILE_STATUS+"','"+appendixColumns.FILE_PATH+"','"+appendixColumns.REG_DATE+"','"+appendixColumns.MOUNT_POINT+"','"+
+				appendixColumns.QUICK_LOOK+"','"+appendixColumns.DATA_GBN+"','"+appendixColumns.DATA_AN_GBN+"','"+appendixColumns.SATELLITE+"','"+satelliteInfo.resolution+"',"+
+				appendixColumns.FILE_SIZE+",'"+appendixColumns.FILE_STATUS+"','"+appendixColumns.FILE_PATH+"',TO_CHAR(SYSDATE, 'YYYYMMDD'),'"+appendixColumns.MOUNT_POINT+"','"+
 				appendixColumns.DATA_OPEN+"','"+appendixColumns.SURVEY_TIME+"')";
 		return query;
 	}
@@ -185,7 +185,7 @@ public class ProductInfo {
 		return filterSimple;
 	}
 
-	public String getDBUpdateQuery(File afile) {
+	public String getDBUpdateQuery(File afile, SatelliteDTO satelliteInfo) {
 		setAppendixColumns(afile);
 		String query = "UPDATE TB_IDENTITY_LIST "
 				+ " SET SURVEY_DATE='"+appendixColumns.SURVEY_DATE+"'"
@@ -200,7 +200,7 @@ public class ProductInfo {
 				+ ",DATA_GBN='" + appendixColumns.DATA_GBN + "'"
 				+ ",DATA_AN_GBN='" + appendixColumns.DATA_AN_GBN + "'"
 				+ ",SATELLITE='" + appendixColumns.SATELLITE + "'"
-				+ ",RESOLUTION='" + appendixColumns.RESOLUTION + "'"
+				+ ",RESOLUTION='" + satelliteInfo.resolution + "'"
 				+ ",FILE_SIZE='" + appendixColumns.FILE_SIZE + "'"
 				+ ",FILE_STATUS='" + appendixColumns.FILE_STATUS + "'"
 				+ ",FILE_PATH='" + appendixColumns.FILE_PATH + "'"
