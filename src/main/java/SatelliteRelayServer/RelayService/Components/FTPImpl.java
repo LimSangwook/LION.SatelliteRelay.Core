@@ -119,6 +119,7 @@ public class FTPImpl {
     // 파일 업로드 
     public void put(File source, String target) throws Exception {
         ftpClient.setFileType(FTP.BINARY_FILE_TYPE);
+        ftpCreateDirectoryTree(ftpClient, target);
         ftpClient.makeDirectory(target);
         cd(target);
         FileInputStream fis = new FileInputStream(source);
@@ -129,6 +130,28 @@ public class FTPImpl {
         		throw new Exception("파일 업로드를 할 수 없습니다."); 
         	} 
     }
+    
+    private static void ftpCreateDirectoryTree( FTPClient client, String dirTree ) throws IOException {
+    	  boolean dirExists = true;
+
+    	  //tokenize the string and attempt to change into each directory level.  If you cannot, then start creating.
+    	  String[] directories = dirTree.split("/");
+    	  for (String dir : directories ) {
+    	    if (!dir.isEmpty() ) {
+    	      if (dirExists) {
+    	        dirExists = client.changeWorkingDirectory(dir);
+    	      }
+    	      if (!dirExists) {
+    	        if (!client.makeDirectory(dir)) {
+    	          throw new IOException("Unable to create remote directory '" + dir + "'.  error='" + client.getReplyString()+"'");
+    	        }
+    	        if (!client.changeWorkingDirectory(dir)) {
+    	          throw new IOException("Unable to change into newly created remote directory '" + dir + "'.  error='" + client.getReplyString()+"'");
+    	        }
+    	      }
+    	    }
+    	  }     
+    	}
 
     // 서버 디렉토리 이동
     public void cd(String path) {
