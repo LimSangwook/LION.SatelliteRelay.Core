@@ -56,8 +56,8 @@ public class RelayProductService extends TimerTask {
 			logger.info("\t [Schedule Job] Init DB");
 			historySaver.add(historyID, "[InitSendServers] init DB ");
 			targetDB = new TargetDB();
-			if ((targetFTP.init(serviceDB) && targetDB.init(serviceDB))) {
-				logger.info("\t [Schedule Job] Completed Init SendServers");
+			if (targetDB.init(serviceDB)) {
+				logger.info("\t [Schedule Job] Completed Init Send DB Servers");
 				historySaver.add(historyID, "[InitSendServers] Completed ");
 				return true;
 			}
