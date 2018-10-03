@@ -53,7 +53,7 @@ public class ProductInfoAppendix {
 		FILE_SIZE = Double.toString(afile.length());		// 9002213	
 		FILE_PATH = getFilePath(afile, targetPath_type, oriTargetPath);		// /MODIS/2014/01/
 		
-		if (DATA_TYPE.compareTo("S") == 0 || DATA_TYPE.compareTo("SG") == 1) { // 수신영상일 경우에만 시간을 넣는다. S:수신영상(기하보정X) SG:수신영상
+		if (DATA_TYPE.compareTo("S") == 1 || DATA_TYPE.compareTo("SG") == 1) { // 수신영상일 경우에만 시간을 넣는다. S:수신영상(기하보정X) SG:수신영상
 			SURVEY_TIME = getSurveyTime(afile);	// 0331
 		} else {
 			SURVEY_TIME = "";
@@ -69,7 +69,7 @@ public class ProductInfoAppendix {
 			Time += " " + afile.getName().substring(SURVEY_TIME_START_INDEX - 1 , SURVEY_TIME_END_INDEX);
 		}
 		
-		return Time;
+		return Time.trim();
 	}
 
 	private String getFilePath(File afile, TARGETPATH_TYPE targetPath_type, String oriTargetPath) {

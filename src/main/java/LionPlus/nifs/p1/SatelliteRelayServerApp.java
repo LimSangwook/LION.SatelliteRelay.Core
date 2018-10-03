@@ -1,4 +1,4 @@
-package LionPlus.SatelliteRelayServer;
+package LionPlus.nifs.p1;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -10,7 +10,7 @@ import SatelliteRelayServer.SatelliteRelayServer;
  * Hello world!
  *
  */
-public class App 
+public class SatelliteRelayServerApp 
 {
 	static Logger logger = Logger.getLogger(SatelliteRelayDBManager.class);
     public static void main( String[] args )

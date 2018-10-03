@@ -73,7 +73,7 @@ public class HistoryDAO extends BaseDAO{
 					+ "SET logs = '"+ newLog + "' "
 					+ "WHERE ID="+historyID;
 			boolean ret = stmt.execute(query);
-			logger.info("[add History Log] " + query );
+			logger.info("[add History Log] " + log );
 
 			conn.commit();
 			if (ret == false) {
@@ -123,7 +123,7 @@ public class HistoryDAO extends BaseDAO{
 			stmt = conn.createStatement();
 			String query = "SELECT LOGS FROM TB_RELAY_HISTORY WHERE ID =" + historyID;
 			rs = stmt.executeQuery(query );
-			logger.info("[get History Log] " + query );
+//			logger.info("[get History Log] " + query );
 
 			while (rs.next()) {
 				return rs.getString("LOGS");

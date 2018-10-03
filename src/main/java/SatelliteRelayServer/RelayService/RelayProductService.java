@@ -42,6 +42,7 @@ public class RelayProductService extends TimerTask {
 	}
 	
 	private boolean initServers() {
+		boolean result = true;
 		logger.info("\t [Schedule Job] init Server - ProcessTYPE : " + productInfo.processTYPE);		
 		historySaver.add(historyID, "[InitSendServers] init Server - ProcessTYPE : " + productInfo.processTYPE);		
 		// init FTP
@@ -49,6 +50,14 @@ public class RelayProductService extends TimerTask {
 			logger.info("\t [Schedule Job] Init FTP");
 			historySaver.add(historyID, "[InitSendServers] init FTP  ");
 			targetFTP = new TargetFTP();
+			if (targetFTP.init(serviceDB)) {
+				logger.info("\t [Schedule Job] Completed Init FTP Servers");
+				historySaver.add(historyID, "[InitSendServers] CompletedInit FTP Servers ");
+			} else {
+				logger.info("\t [Schedule Job] Failed Init FTP Servers");
+				historySaver.add(historyID, "[InitSendServers] FTP Init Failed ");
+				result = false;
+			}
 		}
 		
 		// init DB
@@ -59,18 +68,27 @@ public class RelayProductService extends TimerTask {
 			if (targetDB.init(serviceDB)) {
 				logger.info("\t [Schedule Job] Completed Init Send DB Servers");
 				historySaver.add(historyID, "[InitSendServers] Completed ");
-				return true;
+			} else {
+				logger.info("\t [Schedule Job] Failed Init Send DB Servers");
+				historySaver.add(historyID, "[InitSendServers] DB Init Failed ");
 			}
+			return result;
 		}
 		
 		// REMOVE LOCAL ONLY
 		if (productInfo.processTYPE==PROCESS_TYPE.REMOVE_LOCAL_ONLY) {
-			logger.info("\t [Schedule Job] Init SKIP");
-			historySaver.add(historyID, "[InitSendServers] init SKIP");
+			logger.info("\t [Schedule Job] Init DB/FTP SKIP ");
+			historySaver.add(historyID, "[InitSendServers] init DB/FTP SKIP");
 			return true;
 		}
-		historySaver.add(historyID, "[InitSendServers] Fail ");
-		return false;
+		if (result) {
+			logger.info("\t [Schedule Job] Init True");
+			historySaver.add(historyID, "[InitSendServers] True ");
+		} else {
+			logger.info("\t [Schedule Job] Init True");
+			historySaver.add(historyID, "[InitSendServers] Fail ");
+		}
+		return result;
 	}
 	private void closeServers() throws Exception {
 		if (productInfo.processTYPE==PROCESS_TYPE.DB_FTP || productInfo.processTYPE==PROCESS_TYPE.DB_ONLY) {
@@ -82,14 +100,14 @@ public class RelayProductService extends TimerTask {
 	}	
 	
 	public void run() {
-		logger.info("\t [Schedule Job] START");
+		logger.info("\n\n#######\n\t [Schedule Job] START");
 		historySaver.clean();
 		historyID = historySaver.createNewHistory();
 		logger.info("\t [Schedule Job] START HistoryID : " + historyID);
-		initServers();
-		List<File> matchedFileList = new ArrayList<File>();
 		boolean bResult = false;
-		if (task0InitNCheck() && task1Filtering(matchedFileList)) {
+		bResult = initServers() == false;
+		List<File> matchedFileList = new ArrayList<File>();
+		if (bResult && task0InitNCheck() && task1Filtering(matchedFileList)) {
 			for (File afile : matchedFileList ) {
 				switch(productInfo.processTYPE) {
 				case DB_FTP:
@@ -103,7 +121,7 @@ public class RelayProductService extends TimerTask {
 					}
 					break;
 				case FTP_ONLY:
-					if (task2FTPTransmition(afile) & task4FileRemove(afile)) {
+					if (task2FTPTransmition(afile) && task4FileRemove(afile)) {
 						bResult = true;
 					}
 					break;
@@ -208,7 +226,7 @@ public class RelayProductService extends TimerTask {
 		try {
 			productInfo.setAppendixColumns(afile);
 			if (targetFTP.sendFile(afile, productInfo.getFTPTargetPath()) == false) {
-				historySaver.add(historyID, "[STEP2] File : " + afile.getName() + " send Finished - " + productInfo.getFTPTargetPath());
+				historySaver.add(historyID, "[STEP2] File : " + afile.getName() + " send Failed - " + productInfo.getFTPTargetPath());
 				return false;
 			}
 			historySaver.add(historyID, "[STEP2] File : " + afile.getName() + " send Finished - " + productInfo.getFTPTargetPath());

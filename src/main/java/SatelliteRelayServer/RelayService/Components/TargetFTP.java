@@ -3,9 +3,13 @@ package SatelliteRelayServer.RelayService.Components;
 import java.io.File;
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
+
 import SatelliteRelayServer.SatelliteRelayDBManager;
 
+
 public class TargetFTP {
+	static Logger logger = Logger.getLogger(TargetFTP.class);
 	private FTPImpl ftp;
 	
 	public boolean init(SatelliteRelayDBManager serviceDB) {
@@ -27,6 +31,7 @@ public class TargetFTP {
 		try {
 			ftp.put(afile, ftpTargetPath);
 		} catch (Exception e) {
+			logger.error("FTP SendFile Faile : " + e.toString());
 			e.printStackTrace();
 			return false;
 		}

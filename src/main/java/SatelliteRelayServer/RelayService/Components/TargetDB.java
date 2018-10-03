@@ -23,20 +23,26 @@ public class TargetDB {
 	public boolean init(SatelliteRelayDBManager serviceDB) {
 		this.serviceDB = serviceDB;
 		try {
+			logger.info("[INIT DB] JDBC Drive Loading");
 			// 드라이버를 로딩한다.
 			Class.forName("oracle.jdbc.driver.OracleDriver");
+			logger.info("[INIT DB] Completed JDBC Drive Loading");
 		} catch (ClassNotFoundException e) {
+			logger.info(" Error Exception(init ClassNotFoundException) : " + e.toString());
 			e.printStackTrace();
 			return false;
 		}
 		// 데이터베이스의 연결을 설정한다.
 		try {
+			logger.info("[INIT DB] Start Get DB Connection");
 			String url = "jdbc:oracle:thin:@" + serviceDB.getDBURL();
 			String user = serviceDB.getDBUSER();
 			String pw = serviceDB.getDBPassword();
+			logger.info("[INIT DB] DB url : " + url + " \t USER : " + user);
 			conn = DriverManager.getConnection(url, user, pw);
+			logger.info("[INIT DB] Completed Get DB Connection");
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			logger.info(" Error Exception(init SQLException) : " + e.toString());
 			e.printStackTrace();
 			return false;
 		}
@@ -57,6 +63,7 @@ public class TargetDB {
 				ret = true;
 			}
 		} catch (Exception e) {
+			logger.info(" Error Exception(existFileNameInDB Exception) : " + e.toString());
 			e.printStackTrace();
 			ret = false;
 		} finally {
@@ -64,6 +71,7 @@ public class TargetDB {
 				rs.close(); // ResultSet를 닫는다.
 				stmt.close();
 			} catch (SQLException e) {
+				logger.info(" Error Exception(existFileNameInDB SQLException) : " + e.toString());
 				ret = false;
 			}
 		}
@@ -85,6 +93,7 @@ public class TargetDB {
 				logger.info(" DBINSERT !!!");
 			}
 		} catch (Exception e) {
+			logger.info(" Error Exception(insert Exception) : " + e.toString());
 			e.printStackTrace();
 			return false;
 		} finally {
@@ -92,6 +101,7 @@ public class TargetDB {
 				rs.close(); // ResultSet를 닫는다.
 				stmt.close();
 			} catch (SQLException e) {
+				logger.info(" Error Exception(insert SQLException) : " + e.toString());
 				return false;
 			}
 		}
@@ -112,11 +122,13 @@ public class TargetDB {
 				seq = rs.getInt("SEQ") + 1;
 			}
 		} catch (Exception e) {
+			logger.info(" Error Exception(getNewSEQ Exception) : " + e.toString());
 			e.printStackTrace();
 		} finally {
 			try {
 				rs.close(); // ResultSet를 닫는다.
 			} catch (SQLException e) {
+				logger.info(" Error Exception(getNewSEQ SQLException) : " + e.toString());
 			}
 		}
 		return seq;
@@ -144,6 +156,7 @@ public class TargetDB {
 				logger.info(" DB Update !!!");
 			}
 		} catch (Exception e) {
+			logger.info(" Error Exception(update Exception) : " + e.toString());
 			e.printStackTrace();
 			return false;
 		} finally {
@@ -151,6 +164,7 @@ public class TargetDB {
 				rs.close(); // ResultSet를 닫는다.
 				stmt.close();
 			} catch (SQLException e) {
+				logger.info(" Error Exception(update SQLException) : " + e.toString());
 				return false;
 			}
 		}

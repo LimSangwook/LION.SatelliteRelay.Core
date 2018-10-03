@@ -1,6 +1,8 @@
 package SatelliteRelayServer.Models;
 
 import java.io.File;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -163,7 +165,7 @@ public class ProductInfo {
 
 	public String getDBInsertQuery(File afile, SatelliteDTO satelliteInfo) {
 		setAppendixColumns(afile);
-	
+		String currentDate = getCurrentDate();
 		String query = "INSERT INTO TB_IDENTITY_LIST "
 				+ "(SEQ,IDENTIFIER,SURVEY_DATE,COORD_UL,COORD_LR,PIXEL_ROW,PIXEL_COL,DATA_TYPE, "
 				+ "DATA_FORMAT, PROJECTION,QUICK_LOOK,DATA_GBN,DATA_AN_GBN,SATELLITE,RESOLUTION,"
@@ -172,7 +174,8 @@ public class ProductInfo {
 				+ "('"+appendixColumns.SEQ+"','"+appendixColumns.IDENTIFIER+"','"+appendixColumns.SURVEY_DATE+"','"+appendixColumns.COORD_UL+"','"+appendixColumns.COORD_LR+"','"+
 				appendixColumns.PIXEL_ROW+"','"+appendixColumns.PIXEL_COL+"','"+appendixColumns.DATA_TYPE+"','"+appendixColumns.DATA_FORMAT+"','"+appendixColumns.PROJECTION+"','"+
 				appendixColumns.QUICK_LOOK+"','"+appendixColumns.DATA_GBN+"','"+appendixColumns.DATA_AN_GBN+"','"+appendixColumns.SATELLITE+"','"+satelliteInfo.resolution+"',"+
-				appendixColumns.FILE_SIZE+",'"+appendixColumns.FILE_STATUS+"','"+appendixColumns.FILE_PATH+"',TO_CHAR(SYSDATE, 'YYYYMMDD'),'"+appendixColumns.MOUNT_POINT+"','"+
+//				appendixColumns.FILE_SIZE+",'"+appendixColumns.FILE_STATUS+"','"+appendixColumns.FILE_PATH+"',TO_CHAR(SYSDATE, 'YYYYMMDD'),'"+appendixColumns.MOUNT_POINT+"','"+
+				appendixColumns.FILE_SIZE+",'"+appendixColumns.FILE_STATUS+"','"+appendixColumns.FILE_PATH+"','"+currentDate+"','"+appendixColumns.MOUNT_POINT+"','"+
 				appendixColumns.DATA_OPEN+"','"+appendixColumns.SURVEY_TIME+"')";
 		return query;
 	}
@@ -187,6 +190,7 @@ public class ProductInfo {
 
 	public String getDBUpdateQuery(File afile, SatelliteDTO satelliteInfo) {
 		setAppendixColumns(afile);
+		String currentDate = getCurrentDate();
 		String query = "UPDATE TB_IDENTITY_LIST "
 				+ " SET SURVEY_DATE='"+appendixColumns.SURVEY_DATE+"'"
 				+ ",COORD_UL='" + appendixColumns.COORD_UL + "'"
@@ -204,12 +208,18 @@ public class ProductInfo {
 				+ ",FILE_SIZE='" + appendixColumns.FILE_SIZE + "'"
 				+ ",FILE_STATUS='" + appendixColumns.FILE_STATUS + "'"
 				+ ",FILE_PATH='" + appendixColumns.FILE_PATH + "'"
-//				+ ",REG_DATE='" + appendixColumns.REG_DATE + "'"
+				+ ",REG_DATE='" + currentDate + "'"
 				+ ",REG_DATE=TO_CHAR(SYSDATE, 'YYYYMMDD')"
 				+ ",MOUNT_POINT='" + appendixColumns.MOUNT_POINT + "'"
 				+ ",DATA_OPEN='" + appendixColumns.DATA_OPEN + "'"
 				+ ",SURVEY_TIME='" + appendixColumns.SURVEY_TIME + "'"
 				+ " WHERE IDENTIFIER='" + appendixColumns.IDENTIFIER + "'";
 		return query;
+	}
+
+	private String getCurrentDate() {
+		DateFormat dateFormat = new SimpleDateFormat("yyyyMMdd");
+		Date date = new Date();
+		return dateFormat.format(date);
 	}
 }

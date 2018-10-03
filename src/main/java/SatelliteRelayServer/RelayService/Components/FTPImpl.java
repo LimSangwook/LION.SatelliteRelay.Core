@@ -12,30 +12,50 @@ import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPFile;
 import org.apache.commons.net.ftp.FTPReply;
 import org.apache.commons.net.ftp.FTPSClient;
+import org.apache.log4j.Logger;
 
 public class FTPImpl {
+	static Logger logger = Logger.getLogger(TargetFTP.class);
+	
     private String server = "xxxxx";
     private int port = 21;
     private FTPClient ftpClient;
+    private boolean isSFTP = false;
 
     public FTPImpl(String server, int port, boolean isSFTP) {
         this.server = server;
         this.port = port;
+        this.isSFTP = isSFTP;
         if (isSFTP == true) {
         		ftpClient = new FTPSClient();
         } else {
         		ftpClient = new FTPClient();
         }
-    		ftpClient.enterLocalPassiveMode();
     }
+    
+    public FTPClient getFtpClient() {
+    		if (ftpClient == null) {
+	    		if (isSFTP == true) {
+	        		ftpClient = new FTPSClient();
+	        } else {
+	        		ftpClient = new FTPClient();
+	        }
+    		}
+    		return ftpClient;
+    }
+    
     
     // 계정과 패스워드로 로그인
     public boolean login(String user, String password) {
         try {
             this.connect();
-            boolean b = ftpClient.login(user, password);
+            boolean bLogin = ftpClient.login(user, password);
+            logger.info("FTP login : " + bLogin);
+            ftpClient.enterLocalPassiveMode();
+            boolean bPassive = ftpClient.enterRemotePassiveMode();
+            logger.info("FTP PassiveMode : " + bPassive);
 			ftpClient.setFileType(FTP.BINARY_FILE_TYPE);
-            return b;
+            return bLogin;
         }
         catch (IOException ioe) {
             ioe.printStackTrace();
@@ -118,12 +138,19 @@ public class FTPImpl {
     
     // 파일 업로드 
     public void put(File source, String target) throws Exception {
-        ftpClient.setFileType(FTP.BINARY_FILE_TYPE);
-        ftpCreateDirectoryTree(ftpClient, target);
-        ftpClient.makeDirectory(target);
+    		getFtpClient().setFileType(FTP.BINARY_FILE_TYPE);
+    		getFtpClient().changeWorkingDirectory("/");
+    		cd(target);
+        ftpCreateDirectoryTree(getFtpClient(), target);
+        getFtpClient().makeDirectory(target);
         cd(target);
+        try {
+        		getFtpClient().deleteFile(target);
+        } catch(Exception e) {
+        		
+        }
         FileInputStream fis = new FileInputStream(source);
-        boolean isSuccess = ftpClient.storeFile(source.getName(), fis); // File 업로드
+        boolean isSuccess = getFtpClient().storeFile(source.getName(), fis); // File 업로드
         fis.close();
 
         if (!isSuccess){ 
