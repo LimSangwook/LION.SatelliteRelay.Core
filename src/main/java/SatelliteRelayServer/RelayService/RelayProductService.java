@@ -105,7 +105,7 @@ public class RelayProductService extends TimerTask {
 		historyID = historySaver.createNewHistory();
 		logger.info("\t [Schedule Job] START HistoryID : " + historyID);
 		boolean bResult = false;
-		bResult = initServers() == false;
+		bResult = initServers();
 		List<File> matchedFileList = new ArrayList<File>();
 		if (bResult && task0InitNCheck() && task1Filtering(matchedFileList)) {
 			for (File afile : matchedFileList ) {
@@ -200,10 +200,13 @@ public class RelayProductService extends TimerTask {
 			if (aFile.isDirectory()) {
 				continue;
 			} else {
-				if (aFile.canWrite() == false) return; // Lock 걸려있으면 패스
 				switch (filter_TYPE) {
 				case SIMPLE:	
 					if (aFile.getName().contains(simpleFilter) == true) {
+						if (aFile.canWrite() == false) {
+							logger.info("\t [Schedule Job (" + historyID + ")] PID : " + productInfo.productID + "-" + productInfo.productName + " - " + aFile.getName() + " File is Locking. Matching Pass");
+							return; // Lock 걸려있으면 패스
+						}
 						matchFile.add(aFile);
 					}
 					break;

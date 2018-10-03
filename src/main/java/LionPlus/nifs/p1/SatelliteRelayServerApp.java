@@ -17,7 +17,7 @@ public class SatelliteRelayServerApp
     {
     		PropertyConfigurator.configure("./conf/log4j.properties");
 
-        	System.out.println("Satellite Relay Server start now ");
+        	System.out.println("Satellite Relay Server start now (Ver. 2018.10.03)");
     		logger.info("[Application] START");
 		SatelliteRelayServer service = SatelliteRelayServer.Create();
 		try {
